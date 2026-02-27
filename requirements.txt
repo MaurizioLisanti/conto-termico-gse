@@ -1,0 +1,3 @@
+elysia-ai 
+weaviate-client
+python-dotenv
