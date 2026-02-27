@@ -60,9 +60,11 @@ def setup_elysia():
     # ─── Pre-processing delle collection Weaviate ────────────
     # Necessario affinché Elysia capisca la struttura dei dati
     collection_names = ["Normative", "Pratiche", "Impianti"]
-# Importa i dati prima del preprocessing
+# Prima importa i dati
+print("📥 Importazione dati in corso...")
 import subprocess
-subprocess.run(["python", "import_data.py"])
+subprocess.run(["python", "import_data.py"], check=False)
+print("✅ Dati importati")
     for coll_name in collection_names:
         if not preprocessed_collection_exists(collection_name=coll_name):
             print(f"⚙️  Pre-processing collection '{coll_name}'...")
