@@ -1,3 +1,3 @@
-#!/bin/bash 
-python import_data.py 
-elysia start --port 8000 
+
+#!/bin/bash
+elysia start --port 8000
