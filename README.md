@@ -1,3 +1,6 @@
+> 🚧 **In sviluppo** — RAG agentico per normativa GSE italiana.  
+> Costruito con Python 3.12 + Elysia (Weaviate) + FastAPI.  
+> CI/CD e test automatici in arrivo.
 # 🔥 Conto Termico GSE — Assistente AI con Elysia
 
 Applicazione dimostrativa per la **gestione documentale del Conto Termico GSE**,
