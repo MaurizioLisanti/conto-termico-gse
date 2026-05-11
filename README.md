@@ -1,6 +1,24 @@
 > 🚧 **In sviluppo** — RAG agentico per normativa GSE italiana.  
 > Costruito con Python 3.12 + Elysia (Weaviate) + FastAPI.  
 > CI/CD e test automatici in arrivo.
+## Il problema
+Verificare l'ammissibilità di un impianto
+al Conto Termico GSE richiede ore di lettura
+di decreti ministeriali complessi.
+Ogni domanda tecnica diventa una ricerca manuale
+tra normative, circolari e note tecniche GSE.
+
+## La soluzione
+Un assistente AI agentico che risponde in secondi
+a domande di ammissibilità, stima incentivi
+e verifica documentazione — addestrato sulla
+normativa GSE reale con RAG su Weaviate.
+
+## Per chi è
+Tecnici, installatori e consulenti energetici
+che lavorano con il Conto Termico GSE
+e vogliono risposte rapide e precise
+sulla normativa senza leggere decreti.
 # 🔥 Conto Termico GSE — Assistente AI con Elysia
 
 Applicazione dimostrativa per la **gestione documentale del Conto Termico GSE**,
