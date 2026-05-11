@@ -19,6 +19,13 @@ Tecnici, installatori e consulenti energetici
 che lavorano con il Conto Termico GSE
 e vogliono risposte rapide e precise
 sulla normativa senza leggere decreti.
+## Cosa dimostra tecnicamente
+- RAG agentico su normativa italiana con Elysia/Weaviate
+- Strategia multi-LLM — modello base per decisioni,
+  modello complesso per query articolate
+- Tool personalizzati per dominio GSE specifico
+- Vector search su documenti normativi italiani
+- FastAPI backend con Elysia Web UI integrata
 # 🔥 Conto Termico GSE — Assistente AI con Elysia
 
 Applicazione dimostrativa per la **gestione documentale del Conto Termico GSE**,
@@ -267,7 +274,16 @@ configure(
 → Esegui prima `python import_data.py`
 
 ---
+## Stato del progetto
+🚧 In sviluppo attivo.
+CI/CD e test automatici in arrivo.
+Contribuzioni e feedback benvenuti.
 
+## Progetti correlati
+- **fatturapa-mcp-server** — MCP server per FatturaPA/SDI.
+  Stesso ecosistema PA italiana, diverso dominio normativo.
+- **sdi-ops-monitor** — Monitor operativo SDI/FatturaPA su AWS.
+  Infrastruttura di supporto per flussi documentali italiani.
 ## 📚 Risorse utili
 
 - [Documentazione Elysia](https://weaviate.github.io/elysia/)
