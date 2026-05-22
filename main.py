@@ -14,6 +14,7 @@ load_dotenv()
 def setup_elysia():
     """Configura Elysia e importa i dati."""
     from elysia import configure, Tree
+    from import_data import run_import
 
     openai_key = os.getenv("OPENAI_API_KEY")
     gemini_key = os.getenv("GEMINI_API_KEY")
@@ -43,7 +44,7 @@ def setup_elysia():
 
     # Importa i dati in Weaviate
     print("📥 Importazione dati in corso...")
-    subprocess.run(["python", "import_data.py"], check=False)
+    run_import()
     print("✅ Dati importati")
 
     # Inizializzazione Tree

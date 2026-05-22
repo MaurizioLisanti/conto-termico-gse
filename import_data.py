@@ -18,8 +18,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-WCD_URL = os.environ["WCD_URL"]
-WCD_API_KEY = os.environ["WCD_API_KEY"]
+WCD_URL = os.environ.get("WCD_URL", "")
+WCD_API_KEY = os.environ.get("WCD_API_KEY", "")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 # ─────────────────────────────────────────
@@ -465,7 +465,8 @@ def verify_import(client):
         print(f"  📦 {name}: {count} oggetti")
 
 
-if __name__ == "__main__":
+def run_import():
+    """Importa i dati di esempio in Weaviate. Chiamabile da altri moduli."""
     print("\n🚀 Avvio importazione dati Conto Termico GSE...\n")
     client = get_client()
     try:
@@ -479,3 +480,7 @@ if __name__ == "__main__":
         print("   python main.py\n")
     finally:
         client.close()
+
+
+if __name__ == "__main__":
+    run_import()
