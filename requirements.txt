@@ -1,3 +1,4 @@
-elysia-ai 
+elysia-ai
 weaviate-client
 python-dotenv
+pytest

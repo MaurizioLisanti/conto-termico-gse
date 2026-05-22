@@ -10,6 +10,214 @@ Il docstring descrive all'LLM quando e come usare il tool.
 from elysia import tool, Error, Tree
 
 
+def _verifica_ammissibilita(
+    tipo_impianto: str,
+    potenza_kw: float = None,
+    cop_certificato: float = None,
+    zona_climatica: str = None,
+    superficie_mq: float = None,
+    certificazioni: list = None,
+) -> dict:
+    """Logica pura di verifica ammissibilità — testabile senza Elysia."""
+    soglie_cop = {
+        "A": 2.6, "B": 2.6,
+        "C": 2.8, "D": 2.8,
+        "E": 3.0, "F": 3.0,
+    }
+
+    risultati = {
+        "tipo_impianto": tipo_impianto,
+        "ammissibile": None,
+        "motivazione": "",
+        "requisiti_mancanti": [],
+        "raccomandazioni": [],
+    }
+
+    tipo_lower = tipo_impianto.lower()
+
+    if "pompa di calore" in tipo_lower or "heat pump" in tipo_lower:
+        risultati["tipo_intervento_ct"] = "B.2 - Pompe di calore per climatizzazione invernale"
+        risultati["durata_incentivo"] = "5 anni"
+        problemi = []
+
+        if cop_certificato and zona_climatica:
+            soglia = soglie_cop.get(zona_climatica.upper(), 2.8)
+            if cop_certificato >= soglia:
+                risultati["ammissibile"] = True
+                risultati["motivazione"] = (
+                    f"COP {cop_certificato} ≥ soglia minima {soglia} per zona {zona_climatica}. ✅"
+                )
+            else:
+                problemi.append(
+                    f"COP {cop_certificato} < soglia minima {soglia} per zona {zona_climatica}"
+                )
+        elif cop_certificato and not zona_climatica:
+            risultati["raccomandazioni"].append(
+                "Specifica la zona climatica per una verifica precisa del COP minimo"
+            )
+
+        if potenza_kw and potenza_kw > 2000:
+            problemi.append(f"Potenza {potenza_kw} kW supera il limite massimo di 2.000 kW")
+
+        if certificazioni:
+            cert_lower = [c.lower() for c in certificazioni]
+            if not any("ehpa" in c or "en 14511" in c for c in cert_lower):
+                risultati["requisiti_mancanti"].append("Certificazione EHPA o test EN 14511 richiesta")
+        else:
+            risultati["requisiti_mancanti"].append("Verificare presenza certificazione EHPA o EN 14511")
+
+        if problemi:
+            risultati["ammissibile"] = False
+            risultati["motivazione"] = "Non ammissibile: " + "; ".join(problemi)
+
+        if risultati["ammissibile"] is None:
+            risultati["ammissibile"] = True
+            risultati["motivazione"] = "Tipo impianto compatibile con CT 2.0. Verificare COP e certificazioni."
+
+    elif "solare" in tipo_lower:
+        risultati["tipo_intervento_ct"] = "B.4 - Collettori solari termici"
+        risultati["durata_incentivo"] = "5 anni"
+
+        if superficie_mq and superficie_mq < 1.5:
+            risultati["ammissibile"] = False
+            risultati["motivazione"] = f"Superficie {superficie_mq} m² < minimo 1,5 m² richiesto"
+        else:
+            risultati["ammissibile"] = True
+            risultati["motivazione"] = "Solare termico ammissibile. Verificare certificazione Solar Keymark."
+
+        if certificazioni:
+            if not any("solar keymark" in c.lower() for c in certificazioni):
+                risultati["requisiti_mancanti"].append("Certificazione Solar Keymark richiesta")
+        else:
+            risultati["requisiti_mancanti"].append(
+                "Verificare presenza certificazione Solar Keymark o equivalente europea"
+            )
+
+    elif "biomassa" in tipo_lower or "pellet" in tipo_lower or "legna" in tipo_lower:
+        risultati["tipo_intervento_ct"] = "B.5 - Generatori di calore a biomassa"
+        risultati["durata_incentivo"] = "5 anni"
+        risultati["ammissibile"] = True
+        risultati["motivazione"] = (
+            "Caldaia a biomassa ammissibile (tipologia B.5). Verificare certificazione emissioni EN 303-5."
+        )
+        risultati["requisiti_mancanti"].append("Certificato emissioni EN 303-5 obbligatorio")
+
+    elif "gas" in tipo_lower and "condensaz" not in tipo_lower:
+        risultati["ammissibile"] = False
+        risultati["motivazione"] = (
+            "❌ Le caldaie a gas NON a condensazione non rientrano negli interventi del Conto Termico 2.0."
+        )
+
+    elif "condensaz" in tipo_lower:
+        risultati["tipo_intervento_ct"] = "B.1 - Sostituzione con caldaie a condensazione"
+        risultati["durata_incentivo"] = "2 anni"
+        risultati["ammissibile"] = True
+        risultati["motivazione"] = "Caldaia a condensazione ammissibile (tipologia B.1). Durata incentivo: 2 anni."
+
+    elif "scaldacqua" in tipo_lower or "acs" in tipo_lower:
+        risultati["tipo_intervento_ct"] = "B.3 - Scaldacqua a pompa di calore"
+        risultati["durata_incentivo"] = "2 anni"
+        risultati["ammissibile"] = True
+        risultati["motivazione"] = "Scaldacqua a pompa di calore ammissibile (tipologia B.3)."
+
+    else:
+        risultati["ammissibile"] = None
+        risultati["motivazione"] = (
+            f"Tipo impianto '{tipo_impianto}' non riconosciuto. "
+            "Consultare il DM 16/02/2016 per la classificazione corretta."
+        )
+
+    return risultati
+
+
+def _stima_incentivo(
+    tipo_intervento: str,
+    potenza_kw: float = None,
+    superficie_mq: float = None,
+    zona_climatica: str = None,
+    tipo_soggetto: str = "privato",
+) -> dict:
+    """Logica pura di calcolo incentivo — testabile senza Elysia.
+
+    Raises ValueError se il tipo_intervento non è riconosciuto.
+    """
+    tariffe = {
+        "pompa di calore": {
+            "tariffa_base_kwh": 110,
+            "durata_anni": 5,
+            "min_kw": 5, "max_kw": 2000,
+        },
+        "solare termico": {
+            "tariffa_base_mq": 245,
+            "durata_anni": 5,
+            "min_mq": 1.5,
+        },
+        "biomassa": {
+            "tariffa_base_kwh": 95,
+            "durata_anni": 5,
+            "min_kw": 5, "max_kw": 2000,
+        },
+        "caldaia condensazione": {
+            "tariffa_base_kwh": 65,
+            "durata_anni": 2,
+            "min_kw": 5,
+        },
+        "scaldacqua pompa di calore": {
+            "incentivo_fisso_anno": 300,
+            "durata_anni": 2,
+        },
+    }
+
+    tipo_lower = tipo_intervento.lower()
+    risultato = {"tipo_intervento": tipo_intervento}
+    moltiplicatore_pa = 1.15 if tipo_soggetto.lower() == "pa" else 1.0
+
+    for chiave, dati in tariffe.items():
+        if chiave in tipo_lower:
+            durata = dati["durata_anni"]
+
+            if chiave == "solare termico" and superficie_mq:
+                annuo = dati["tariffa_base_mq"] * superficie_mq * moltiplicatore_pa
+                risultato["incentivo_annuo_eur"] = round(annuo, 2)
+                risultato["incentivo_totale_eur"] = round(annuo * durata, 2)
+                risultato["durata_anni"] = durata
+                risultato["base_calcolo"] = f"{superficie_mq} m² × {dati['tariffa_base_mq']} €/m²/anno"
+
+            elif chiave == "scaldacqua pompa di calore":
+                annuo = dati["incentivo_fisso_anno"] * moltiplicatore_pa
+                risultato["incentivo_annuo_eur"] = round(annuo, 2)
+                risultato["incentivo_totale_eur"] = round(annuo * durata, 2)
+                risultato["durata_anni"] = durata
+                risultato["base_calcolo"] = "Incentivo fisso per categoria B.3"
+
+            elif potenza_kw:
+                annuo = dati["tariffa_base_kwh"] * potenza_kw * moltiplicatore_pa
+                risultato["incentivo_annuo_eur"] = round(annuo, 2)
+                risultato["incentivo_totale_eur"] = round(annuo * durata, 2)
+                risultato["durata_anni"] = durata
+                risultato["base_calcolo"] = f"{potenza_kw} kW × {dati['tariffa_base_kwh']} €/kW/anno"
+
+            else:
+                risultato["nota"] = (
+                    "Specificare la potenza in kW (o i m² per solare termico) per ottenere una stima precisa."
+                )
+                risultato["formula"] = (
+                    f"Incentivo annuo ≈ {dati.get('tariffa_base_kwh', dati.get('tariffa_base_mq'))} "
+                    f"× [kW o m²] per {durata} anni"
+                )
+
+            risultato["avvertenza"] = (
+                "⚠️ Stima indicativa. Il valore definitivo è calcolato dal GSE in sede di istruttoria."
+            )
+            return risultato
+
+    raise ValueError(
+        f"Tipo di intervento '{tipo_intervento}' non riconosciuto. "
+        "Specificare: pompa di calore, solare termico, biomassa, caldaia a condensazione, "
+        "scaldacqua pompa di calore."
+    )
+
+
 def register_tools(tree: Tree):
     """Registra tutti i tool custom nel tree Elysia."""
 
@@ -45,111 +253,9 @@ def register_tools(tree: Tree):
         - client_manager: client Weaviate (iniettato automaticamente da Elysia)
         """
 
-        # Soglie minime per zona climatica (pompe di calore)
-        soglie_cop = {
-            "A": 2.6, "B": 2.6,
-            "C": 2.8, "D": 2.8,
-            "E": 3.0, "F": 3.0
-        }
-
-        risultati = {
-            "tipo_impianto": tipo_impianto,
-            "ammissibile": None,
-            "motivazione": "",
-            "requisiti_mancanti": [],
-            "raccomandazioni": []
-        }
-
-        tipo_lower = tipo_impianto.lower()
-
-        # --- Pompa di calore ---
-        if "pompa di calore" in tipo_lower or "heat pump" in tipo_lower:
-            tipo_intervento = "B.2 - Pompe di calore per climatizzazione invernale"
-            risultati["tipo_intervento_ct"] = tipo_intervento
-            risultati["durata_incentivo"] = "5 anni"
-
-            problemi = []
-
-            if cop_certificato and zona_climatica:
-                soglia = soglie_cop.get(zona_climatica.upper(), 2.8)
-                if cop_certificato >= soglia:
-                    risultati["ammissibile"] = True
-                    risultati["motivazione"] = f"COP {cop_certificato} ≥ soglia minima {soglia} per zona {zona_climatica}. ✅"
-                else:
-                    problemi.append(f"COP {cop_certificato} < soglia minima {soglia} per zona {zona_climatica}")
-            elif cop_certificato and not zona_climatica:
-                risultati["raccomandazioni"].append("Specifica la zona climatica per una verifica precisa del COP minimo")
-
-            if potenza_kw and potenza_kw > 2000:
-                problemi.append(f"Potenza {potenza_kw} kW supera il limite massimo di 2.000 kW")
-
-            if certificazioni:
-                cert_lower = [c.lower() for c in certificazioni]
-                if not any("ehpa" in c or "en 14511" in c for c in cert_lower):
-                    risultati["requisiti_mancanti"].append("Certificazione EHPA o test EN 14511 richiesta")
-            else:
-                risultati["requisiti_mancanti"].append("Verificare presenza certificazione EHPA o EN 14511")
-
-            if problemi:
-                risultati["ammissibile"] = False
-                risultati["motivazione"] = "Non ammissibile: " + "; ".join(problemi)
-
-            if risultati["ammissibile"] is None:
-                risultati["ammissibile"] = True
-                risultati["motivazione"] = "Tipo impianto compatibile con CT 2.0. Verificare COP e certificazioni."
-
-        # --- Solare termico ---
-        elif "solare" in tipo_lower:
-            tipo_intervento = "B.4 - Collettori solari termici"
-            risultati["tipo_intervento_ct"] = tipo_intervento
-            risultati["durata_incentivo"] = "5 anni"
-
-            if superficie_mq and superficie_mq < 1.5:
-                risultati["ammissibile"] = False
-                risultati["motivazione"] = f"Superficie {superficie_mq} m² < minimo 1,5 m² richiesto"
-            else:
-                risultati["ammissibile"] = True
-                risultati["motivazione"] = "Solare termico ammissibile. Verificare certificazione Solar Keymark."
-
-            if certificazioni:
-                if not any("solar keymark" in c.lower() for c in certificazioni):
-                    risultati["requisiti_mancanti"].append("Certificazione Solar Keymark richiesta")
-            else:
-                risultati["requisiti_mancanti"].append("Verificare presenza certificazione Solar Keymark o equivalente europea")
-
-        # --- Caldaia biomassa ---
-        elif "biomassa" in tipo_lower or "pellet" in tipo_lower or "legna" in tipo_lower:
-            tipo_intervento = "B.5 - Generatori di calore a biomassa"
-            risultati["tipo_intervento_ct"] = tipo_intervento
-            risultati["durata_incentivo"] = "5 anni"
-            risultati["ammissibile"] = True
-            risultati["motivazione"] = "Caldaia a biomassa ammissibile (tipologia B.5). Verificare certificazione emissioni EN 303-5."
-            risultati["requisiti_mancanti"].append("Certificato emissioni EN 303-5 obbligatorio")
-
-        # --- Caldaia a gas non condensante ---
-        elif "gas" in tipo_lower and "condensaz" not in tipo_lower:
-            risultati["ammissibile"] = False
-            risultati["motivazione"] = "❌ Le caldaie a gas NON a condensazione non rientrano negli interventi del Conto Termico 2.0."
-
-        # --- Caldaia a condensazione ---
-        elif "condensaz" in tipo_lower:
-            tipo_intervento = "B.1 - Sostituzione con caldaie a condensazione"
-            risultati["tipo_intervento_ct"] = tipo_intervento
-            risultati["durata_incentivo"] = "2 anni"
-            risultati["ammissibile"] = True
-            risultati["motivazione"] = "Caldaia a condensazione ammissibile (tipologia B.1). Durata incentivo: 2 anni."
-
-        # --- Scaldacqua pompa di calore ---
-        elif "scaldacqua" in tipo_lower or "acs" in tipo_lower:
-            tipo_intervento = "B.3 - Scaldacqua a pompa di calore"
-            risultati["tipo_intervento_ct"] = tipo_intervento
-            risultati["durata_incentivo"] = "2 anni"
-            risultati["ammissibile"] = True
-            risultati["motivazione"] = "Scaldacqua a pompa di calore ammissibile (tipologia B.3)."
-
-        else:
-            risultati["ammissibile"] = None
-            risultati["motivazione"] = f"Tipo impianto '{tipo_impianto}' non riconosciuto. Consultare il DM 16/02/2016 per la classificazione corretta."
+        risultati = _verifica_ammissibilita(
+            tipo_impianto, potenza_kw, cop_certificato, zona_climatica, superficie_mq, certificazioni
+        )
 
         yield risultati
         
@@ -185,74 +291,10 @@ def register_tools(tree: Tree):
         - tipo_soggetto: "privato" o "PA" (Pubblica Amministrazione)
         """
 
-        # Tariffe incentivo (€/anno per kW o m²) - dati semplificati da DM 16/02/2016
-        # In produzione queste tariffe andrebbero lette dalla collection Normative
-        tariffe = {
-            "pompa di calore": {
-                "tariffa_base_kwh": 110,   # €/kW/anno indicativo
-                "durata_anni": 5,
-                "min_kw": 5, "max_kw": 2000
-            },
-            "solare termico": {
-                "tariffa_base_mq": 245,    # €/m²/anno indicativo
-                "durata_anni": 5,
-                "min_mq": 1.5
-            },
-            "biomassa": {
-                "tariffa_base_kwh": 95,    # €/kW/anno indicativo
-                "durata_anni": 5,
-                "min_kw": 5, "max_kw": 2000
-            },
-            "caldaia condensazione": {
-                "tariffa_base_kwh": 65,    # €/kW/anno indicativo
-                "durata_anni": 2,
-                "min_kw": 5
-            },
-            "scaldacqua pompa di calore": {
-                "incentivo_fisso_anno": 300,  # € fissi/anno indicativo
-                "durata_anni": 2,
-            }
-        }
-
-        tipo_lower = tipo_intervento.lower()
-        risultato = {"tipo_intervento": tipo_intervento}
-
-        # Moltiplicatore PA (PA ha incentivi leggermente più alti)
-        moltiplicatore_pa = 1.15 if tipo_soggetto.lower() == "pa" else 1.0
-
-        for chiave, dati in tariffe.items():
-            if chiave in tipo_lower:
-                durata = dati["durata_anni"]
-
-                if chiave == "solare termico" and superficie_mq:
-                    annuo = dati["tariffa_base_mq"] * superficie_mq * moltiplicatore_pa
-                    risultato["incentivo_annuo_eur"] = round(annuo, 2)
-                    risultato["incentivo_totale_eur"] = round(annuo * durata, 2)
-                    risultato["durata_anni"] = durata
-                    risultato["base_calcolo"] = f"{superficie_mq} m² × {dati['tariffa_base_mq']} €/m²/anno"
-
-                elif chiave == "scaldacqua pompa di calore":
-                    annuo = dati["incentivo_fisso_anno"] * moltiplicatore_pa
-                    risultato["incentivo_annuo_eur"] = round(annuo, 2)
-                    risultato["incentivo_totale_eur"] = round(annuo * durata, 2)
-                    risultato["durata_anni"] = durata
-                    risultato["base_calcolo"] = "Incentivo fisso per categoria B.3"
-
-                elif potenza_kw:
-                    annuo = dati["tariffa_base_kwh"] * potenza_kw * moltiplicatore_pa
-                    risultato["incentivo_annuo_eur"] = round(annuo, 2)
-                    risultato["incentivo_totale_eur"] = round(annuo * durata, 2)
-                    risultato["durata_anni"] = durata
-                    risultato["base_calcolo"] = f"{potenza_kw} kW × {dati['tariffa_base_kwh']} €/kW/anno"
-
-                else:
-                    risultato["nota"] = f"Specificare la potenza in kW (o i m² per solare termico) per ottenere una stima precisa."
-                    risultato["formula"] = f"Incentivo annuo ≈ {dati.get('tariffa_base_kwh', dati.get('tariffa_base_mq'))} × [kW o m²] per {durata} anni"
-
-                risultato["avvertenza"] = "⚠️ Stima indicativa. Il valore definitivo è calcolato dal GSE in sede di istruttoria."
-                break
-        else:
-            yield Error(f"Tipo di intervento '{tipo_intervento}' non riconosciuto. Specificare: pompa di calore, solare termico, biomassa, caldaia a condensazione, scaldacqua pompa di calore.")
+        try:
+            risultato = _stima_incentivo(tipo_intervento, potenza_kw, superficie_mq, zona_climatica, tipo_soggetto)
+        except ValueError as e:
+            yield Error(str(e))
             return
 
         yield risultato
