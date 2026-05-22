@@ -28,6 +28,8 @@ sulla normativa senza leggere decreti.
 - FastAPI backend con Elysia Web UI integrata
 # 🔥 Conto Termico GSE — Assistente AI con Elysia
 
+![CI](https://github.com/MaurizioLisanti/conto-termico-gse/actions/workflows/ci.yml/badge.svg)
+
 Applicazione dimostrativa per la **gestione documentale del Conto Termico GSE**,
 costruita su [Elysia](https://github.com/weaviate/elysia) (framework RAG agentico di Weaviate).
 
