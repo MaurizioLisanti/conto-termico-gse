@@ -29,6 +29,7 @@ sulla normativa senza leggere decreti.
 # 🔥 Conto Termico GSE — Assistente AI con Elysia
 
 ![CI](https://github.com/MaurizioLisanti/conto-termico-gse/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 Applicazione dimostrativa per la **gestione documentale del Conto Termico GSE**,
 costruita su [Elysia](https://github.com/weaviate/elysia) (framework RAG agentico di Weaviate).
@@ -297,4 +298,16 @@ Contribuzioni e feedback benvenuti.
 ---
 
 *Progetto dimostrativo — i dati GSE inclusi sono fittizi e a solo scopo illustrativo.*
-#updated 
+
+---
+
+## 🤝 Community — Linux PropLUG
+
+Questo progetto è sviluppato nell'ambito di **Linux PropLUG**,
+l'associazione Linux di Napoli che promuove il software libero e open source
+nella comunità tecnica campana.
+
+🌐 [https://proplug.it](https://proplug.it)
+
+Contribuzioni benvenute — leggi [CONTRIBUTING.md](CONTRIBUTING.md) per iniziare.
+
