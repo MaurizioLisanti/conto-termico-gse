@@ -130,43 +130,72 @@ def _verifica_ammissibilita(
     return risultati
 
 
+_TARIFFE_FALLBACK = {
+    "pompa di calore": {
+        "tariffa_base_kwh": 110,
+        "durata_anni": 5,
+        "min_kw": 5, "max_kw": 2000,
+    },
+    "solare termico": {
+        "tariffa_base_mq": 245,
+        "durata_anni": 5,
+        "min_mq": 1.5,
+    },
+    "biomassa": {
+        "tariffa_base_kwh": 95,
+        "durata_anni": 5,
+        "min_kw": 5, "max_kw": 2000,
+    },
+    "caldaia condensazione": {
+        "tariffa_base_kwh": 65,
+        "durata_anni": 2,
+        "min_kw": 5,
+    },
+    "scaldacqua pompa di calore": {
+        "incentivo_fisso_anno": 300,
+        "durata_anni": 2,
+    },
+}
+
+
+def _get_tariffe(client_manager=None) -> dict:
+    """Legge le tariffe dalla collection Normative con fallback hardcoded.
+
+    Se client_manager è None o la query fallisce, ritorna _TARIFFE_FALLBACK.
+    Non solleva mai eccezioni.
+    """
+    if client_manager is None:
+        return _TARIFFE_FALLBACK
+    try:
+        with client_manager.connect_to_client() as client:
+            normative = client.collections.get("Normative")
+            results = normative.query.near_text(
+                query="tariffe incentivo conto termico kwh anno",
+                limit=1,
+            )
+            if not results.objects:
+                return _TARIFFE_FALLBACK
+            tariffe_json = results.objects[0].properties.get("tariffe_json")
+            if isinstance(tariffe_json, dict) and tariffe_json:
+                return tariffe_json
+            return _TARIFFE_FALLBACK
+    except Exception:
+        return _TARIFFE_FALLBACK
+
+
 def _stima_incentivo(
     tipo_intervento: str,
     potenza_kw: float = None,
     superficie_mq: float = None,
     zona_climatica: str = None,
     tipo_soggetto: str = "privato",
+    client_manager=None,
 ) -> dict:
     """Logica pura di calcolo incentivo — testabile senza Elysia.
 
     Raises ValueError se il tipo_intervento non è riconosciuto.
     """
-    tariffe = {
-        "pompa di calore": {
-            "tariffa_base_kwh": 110,
-            "durata_anni": 5,
-            "min_kw": 5, "max_kw": 2000,
-        },
-        "solare termico": {
-            "tariffa_base_mq": 245,
-            "durata_anni": 5,
-            "min_mq": 1.5,
-        },
-        "biomassa": {
-            "tariffa_base_kwh": 95,
-            "durata_anni": 5,
-            "min_kw": 5, "max_kw": 2000,
-        },
-        "caldaia condensazione": {
-            "tariffa_base_kwh": 65,
-            "durata_anni": 2,
-            "min_kw": 5,
-        },
-        "scaldacqua pompa di calore": {
-            "incentivo_fisso_anno": 300,
-            "durata_anni": 2,
-        },
-    }
+    tariffe = _get_tariffe(client_manager)
 
     tipo_lower = tipo_intervento.lower()
     risultato = {"tipo_intervento": tipo_intervento}

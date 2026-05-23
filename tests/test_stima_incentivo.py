@@ -1,6 +1,6 @@
 """Tests for _stima_incentivo pure function."""
 import pytest
-from tools import _stima_incentivo
+from tools import _stima_incentivo, _get_tariffe
 
 
 # ── pompa di calore ────────────────────────────────────────────────────────────
@@ -101,3 +101,23 @@ def test_tipo_sconosciuto_raise():
 def test_tipo_vuoto_raise():
     with pytest.raises(ValueError):
         _stima_incentivo("")
+
+
+# ── _get_tariffe fallback ──────────────────────────────────────────────────────
+
+def test_get_tariffe_fallback_senza_client():
+    """_get_tariffe() con client=None ritorna il dizionario hardcoded completo."""
+    t = _get_tariffe()
+    assert "pompa di calore" in t
+    assert "solare termico" in t
+    assert "biomassa" in t
+    assert "caldaia condensazione" in t
+    assert t["pompa di calore"]["tariffa_base_kwh"] == 110
+    assert t["solare termico"]["tariffa_base_mq"] == 245
+
+
+def test_stima_incentivo_client_manager_none_usa_fallback():
+    """_stima_incentivo con client_manager=None usa le tariffe hardcoded."""
+    r = _stima_incentivo("pompa di calore", potenza_kw=10.0, client_manager=None)
+    assert r["incentivo_annuo_eur"] == pytest.approx(1100.0)
+    assert r["incentivo_totale_eur"] == pytest.approx(5500.0)
