@@ -1,0 +1,139 @@
+{
+  "source": "decreto_dm_16_02_2016.pdf",
+  "tipo": "decreto",
+  "data_documento": "2016-02-16",
+  "versione": "CT 2.0",
+  "sezioni": [
+    {
+      "titolo": "Finalit\u00e0 e ambito di applicazione",
+      "contenuto": "Art. 1. Il presente decreto aggiorna la disciplina per l\u2019incentivazione di interventi di piccole dimensioni per l\u2019incremento dell\u2019efficienza energetica e per la produzione di energia termica da fonti rinnovabili secondo principi di semplificazione, efficacia, diversificazione e innovazione tecnologica nonch\u00e9 di coerenza con gli obiettivi di riqualificazione energetica degli edifici della pubblica amministrazione.",
+      "pagina": 3,
+      "tags": []
+    },
+    {
+      "titolo": "Definizioni",
+      "contenuto": "Art. 2. Ai fini dell\u2019applicazione del presente decreto valgono le definizioni di cui al decreto legislativo 19 agosto 2005, n.192, al decreto legislativo 3 marzo 2011, n. 28, al decreto legislativo 30 maggio 2008, n. 115 e al decreto legislativo 4 luglio 2014, n. 102. Si applicano altres\u00ec le definizioni di cui al decreto del Ministro dello sviluppo economico 26 giugno 2015, concernente l\u2019applicazione delle metodologie di calcolo delle prestazioni energetiche e definizione delle prescrizioni e dei requisiti minimi negli edifici, di seguito solo \u201cdecreto requisiti minimi\u201d.",
+      "pagina": 3,
+      "tags": []
+    },
+    {
+      "titolo": "Soggetti ammessi",
+      "contenuto": "Art. 3. Sono ammessi ai benefici previsti dal presente decreto: a) le amministrazioni pubbliche, relativamente alla realizzazione di uno o pi\u00f9 degli interventi di cui all\u2019articolo 4; b) i soggetti privati, relativamente alla realizzazione di uno o pi\u00f9 degli interventi di cui all\u2019articolo 4, comma 2.",
+      "pagina": 6,
+      "tags": []
+    },
+    {
+      "titolo": "Tipologie di interventi incentivabili",
+      "contenuto": "Art. 4. Sono incentivabili, alle condizioni e secondo le modalit\u00e0 di cui agli Allegati I e II, ivi comprese le spese ammissibili di cui all\u2019articolo 5, i seguenti interventi di incremento dell\u2019efficienza energetica in edifici esistenti, parti di edifici esistenti o unit\u00e0 immobiliari esistenti di qualsiasi categoria catastale, dotati di impianto di climatizzazione: ...",
+      "pagina": 6,
+      "tags": []
+    },
+    {
+      "titolo": "Spese ammissibili ai fini del calcolo dell\u2019incentivo",
+      "contenuto": "Art. 5. Per gli interventi incentivabili di cui all\u2019articolo 4, concorrono alla determinazione delle spese ammissibili ai fini dell\u2019incentivo quelle di seguito elencate, comprensive di IVA, dove essa costituisca un costo:",
+      "pagina": 8,
+      "tags": []
+    },
+    {
+      "titolo": "Procedura di accesso agli incentivi",
+      "contenuto": "Art. 6. Ai fini dell\u2019accesso agli incentivi di cui al presente decreto, il soggetto responsabile presenta domanda al GSE attraverso la scheda-domanda, resa disponibile dallo stesso GSE tramite il Portaltermico.",
+      "pagina": 10,
+      "tags": []
+    },
+    {
+      "titolo": "Ammontare e durata dell\u2019incentivo",
+      "contenuto": "Art. 7. Fatto salvo quanto previsto ai successivi commi, gli interventi di cui all\u2019articolo 4 sono incentivati in rate annuali costanti, per la durata definita nella Tabella A, secondo le modalit\u00e0 di cui agli Allegati al presente decreto.",
+      "pagina": 13,
+      "tags": []
+    }
+  ],
+  "interventi": [
+    {
+      "codice": "4.1.a",
+      "descrizione": "isolamento termico di superfici opache delimitanti il volume climatizzato",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.b",
+      "descrizione": "sostituzione di chiusure trasparenti comprensive di infissi delimitanti il volume climatizzato",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.c",
+      "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale utilizzanti generatori di calore a condensazione",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.d",
+      "descrizione": "installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti con esposizione da Est-sud-est a Ovest, fissi o mobili, non trasportabili",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.e",
+      "descrizione": "trasformazione degli edifici esistenti in \u201cedifici a energia quasi zero\u201d",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.f",
+      "descrizione": "sostituzione di sistemi per l\u2019illuminazione d\u2019interni e delle pertinenze esterne degli edifici esistenti con sistemi efficienti di illuminazione",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.g",
+      "descrizione": "installazione di tecnologie di gestione e controllo automatico (building automation) degli impianti termici ed elettrici degli edifici, ivi compresa l\u2019installazione di sistemi di termoregolazione e contabilizzazione del calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.a",
+      "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.b",
+      "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti o di riscaldamento delle serre e dei fabbricati rurali esistenti con impianti di climatizzazione invernale dotati di generatore di calore alimentato da biomassa, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.c",
+      "descrizione": "installazione di impianti solari termici per la produzione di acqua calda sanitaria e/o ad integrazione dell\u2019impianto di climatizzazione invernale, anche abbinati a sistemi di solar cooling, per la produzione di energia termica per processi produttivi o immissione in reti di teleriscaldamento e teleraffreddamento. Nel caso di superfici del campo solare superiori a 100 m2 \u00e8 richiesta l\u2019installazione di sistemi di contabilizzazione del calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.d",
+      "descrizione": "sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.e",
+      "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con sistemi ibridi a pompa di calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    }
+  ],
+  "tariffe": [],
+  "requisiti_tecnici": [],
+  "citations": []
+}

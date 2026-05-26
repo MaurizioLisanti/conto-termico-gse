@@ -1,0 +1,189 @@
+{
+  "source": "ct3_webinar_2026.pdf",
+  "tipo": "regole_applicative",
+  "data_documento": "2026-02-03",
+  "versione": "CT 3.0",
+  "sezioni": [
+    {
+      "titolo": "INTRODUZIONE AL CONTO TERMICO 3.0",
+      "contenuto": "Panoramica dei Soggetti Ammessi e Interventi, Diagnosi Energetica, Quantificazione Incentivi, Interventi Incentivabili del Titolo III, Caso Studio.",
+      "pagina": 2,
+      "tags": []
+    },
+    {
+      "titolo": "NOVIT\u00c0 INTRODOTTE DAL CONTO TERMICO 3.0",
+      "contenuto": "Specializzazione meccanismo, Estensione perimetro, Semplificazione procedure, Ampliamento tecnologie, Modulazione del Contingente di spesa, Introduzione di soluzioni tecnologiche, Aumento dei massimali, Accesso tramite CER.",
+      "pagina": 3,
+      "tags": []
+    },
+    {
+      "titolo": "REQUISITI E GESTIONE DEL TRANSITORIO",
+      "contenuto": "Requisiti dei Soggetti Ammessi, Quantificazione incentivi, Modalit\u00e0 di accesso, Disposizioni finali e Modalit\u00e0 di gestione del transitorio con il CT 2.0.",
+      "pagina": 4,
+      "tags": []
+    },
+    {
+      "titolo": "DISPOSIZIONI FINALI E PERIODO TRANSITORIO",
+      "contenuto": "Transizione dal CT 2.0 al CT 3.0 per diverse fattispecie di istanze presentate.",
+      "pagina": 5,
+      "tags": []
+    },
+    {
+      "titolo": "SOGGETTI AMMESSI E INTERVENTI INCENTIVABILI",
+      "contenuto": "Soggetti Ammessi agli incentivi, Soggetti Responsabili, Modalit\u00e0 di accesso.",
+      "pagina": 6,
+      "tags": []
+    },
+    {
+      "titolo": "SOGGETTI AMMESSI AGLI INCENTIVI",
+      "contenuto": "Pubblica Amministrazione, Soggetti Privati, Enti del Terzo Settore.",
+      "pagina": 7,
+      "tags": []
+    },
+    {
+      "titolo": "SOGGETTI PRIVATI",
+      "contenuto": "Definizione di impresa e categorie di soggetti privati ammessi.",
+      "pagina": 8,
+      "tags": []
+    },
+    {
+      "titolo": "SPECIALIZZAZIONE PER IL SETTORE TERZIARIO",
+      "contenuto": "Interventi di efficienza energetica degli edifici del settore terziario e categorie catastali ammissibili.",
+      "pagina": 9,
+      "tags": []
+    },
+    {
+      "titolo": "SOGGETTI AMMESSI AGLI INCENTIVI PER INTERVENTI",
+      "contenuto": "Tabella riassuntiva dei soggetti ammessi ai Titoli II e III.",
+      "pagina": 10,
+      "tags": []
+    },
+    {
+      "titolo": "INTERVENTI INCENTIVABILI",
+      "contenuto": "Titolo II (Riqualificazione Energetica) e Titolo III (Impianti a Fonte Rinnovabile).",
+      "pagina": 11,
+      "tags": []
+    },
+    {
+      "titolo": "ACCESSO AL MECCANISMO: ESCo E ALTRI SOGGETTI ABILITATI",
+      "contenuto": "Modalit\u00e0 di accesso tramite ESCo, CER, PPP e altri soggetti.",
+      "pagina": 12,
+      "tags": []
+    },
+    {
+      "titolo": "DIAGNOSI ENERGETICA",
+      "contenuto": "Requisiti e novit\u00e0 per le Diagnosi Energetiche, Contributo anticipato per la redazione della DE.",
+      "pagina": 13,
+      "tags": []
+    },
+    {
+      "titolo": "DIAGNOSI ENERGETICA: OBBLIGATORIET\u00c0 E CORRISPETTIVI",
+      "contenuto": "Quando \u00e8 obbligatoria, massimali di spesa e copertura delle spese per PA e Privati.",
+      "pagina": 14,
+      "tags": []
+    },
+    {
+      "titolo": "CONTRIBUTO ANTICIPATO PER LA DIAGNOSI ENERGETICA",
+      "contenuto": "Modalit\u00e0 di accesso e requisiti per il contributo anticipato per PA e ETS non economici.",
+      "pagina": 15,
+      "tags": []
+    },
+    {
+      "titolo": "INTERVENTI INCENTIVABILI",
+      "contenuto": "Quantificazione degli incentivi, Focus interventi del Titolo III.",
+      "pagina": 16,
+      "tags": []
+    },
+    {
+      "titolo": "INTERVENTI INCENTIVABILI DEL TITOLO III",
+      "contenuto": "Massimali e limiti di spesa incentivabili per diversi interventi.",
+      "pagina": 17,
+      "tags": []
+    },
+    {
+      "titolo": "INCENTIVI FINO AL 100% PER COMUNI FINO A 15.000 ABITANTI",
+      "contenuto": "Novit\u00e0 introdotte per interventi realizzati su edifici di propriet\u00e0 di Comuni fino a 15.000 abitanti.",
+      "pagina": 18,
+      "tags": []
+    },
+    {
+      "titolo": "INTERVENTI REALIZZATI SU EDIFICI PUBBLICI",
+      "contenuto": "Incentivi per interventi realizzati su edifici pubblici con destinazione di scuole e ospedali.",
+      "pagina": 19,
+      "tags": []
+    }
+  ],
+  "interventi": [
+    {
+      "codice": "II.A",
+      "descrizione": "Isolamento termico di superfici opache",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "II.B",
+      "descrizione": "Sostituzione di chiusure trasparenti",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "II.D",
+      "descrizione": "Edifici nZEB",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.A",
+      "descrizione": "Pompe di calore elettriche o a gas",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.B",
+      "descrizione": "Sistemi ibridi factory made o bivalenti",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.C",
+      "descrizione": "Caldaie a biomassa",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.D",
+      "descrizione": "Scaldacqua a pompa di calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.F",
+      "descrizione": "Allaccio a sistemi di teleriscaldamento efficiente",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.G",
+      "descrizione": "Microcogenerazione alimentata da fonti rinnovabili",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    }
+  ],
+  "tariffe": [],
+  "requisiti_tecnici": [],
+  "citations": [
+    "D.M. 7 agosto 2025",
+    "D.M. 16 febbraio 2016",
+    "Dlgs 102/14",
+    "Art. 48-ter del DL 104-2020"
+  ]
+}

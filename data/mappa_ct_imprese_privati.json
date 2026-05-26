@@ -1,0 +1,159 @@
+{
+  "source": "mappa_ct_imprese_privati.pdf",
+  "tipo": "guida",
+  "data_documento": "2025-01-01",
+  "versione": "CT 2.0",
+  "sezioni": [
+    {
+      "titolo": "IL MECCANISMO DI INCENTIVO",
+      "contenuto": "Il Conto Termico incentiva interventi per l'incremento dell'efficienza energetica e la produzione di energia termica da fonti rinnovabili negli edifici.",
+      "pagina": 4,
+      "tags": [
+        "incentivo",
+        "efficienza energetica",
+        "fonti rinnovabili"
+      ]
+    },
+    {
+      "titolo": "DECRETO E REGOLE APPLICATIVE",
+      "contenuto": "Fai sempre riferimento al DM 16 febbraio 2016 e alle Regole Applicative del Conto Termico.",
+      "pagina": 4,
+      "tags": [
+        "DM 16 febbraio 2016",
+        "Regole Applicative"
+      ]
+    },
+    {
+      "titolo": "COME ACCEDERE",
+      "contenuto": "Per presentare istanza di incentivo occorre essere registrati all'Area Clienti del GSE e sottoscrivere l'applicazione Portaltermico.",
+      "pagina": 5,
+      "tags": [
+        "Area Clienti GSE",
+        "Portaltermico"
+      ]
+    },
+    {
+      "titolo": "INTERVENTI INCENTIVABILI",
+      "contenuto": "I soggetti privati possono richiedere gli incentivi in Conto Termico per diversi interventi.",
+      "pagina": 6,
+      "tags": [
+        "interventi",
+        "incentivi",
+        "Conto Termico"
+      ]
+    },
+    {
+      "titolo": "DIAGNOSI ENERGETICA E APE",
+      "contenuto": "Le spese sostenute per la diagnosi e la certificazione energetica degli interventi che le prevedono obbligatoriamente sono incentivate.",
+      "pagina": 6,
+      "tags": [
+        "diagnosi energetica",
+        "APE",
+        "incentivi"
+      ]
+    },
+    {
+      "titolo": "CUMULABILIT\u00c0",
+      "contenuto": "Gli incentivi in Conto Termico sono riconosciuti esclusivamente agli interventi per la cui realizzazione non siano concessi altri incentivi statali.",
+      "pagina": 7,
+      "tags": [
+        "cumulabilit\u00e0",
+        "incentivi",
+        "Conto Termico"
+      ]
+    },
+    {
+      "titolo": "COME PRESENTARE LA RICHIESTA DI INCENTIVO",
+      "contenuto": "Per presentare istanza di incentivo occorre seguire una procedura in pochi step.",
+      "pagina": 8,
+      "tags": [
+        "richiesta incentivo",
+        "procedura"
+      ]
+    },
+    {
+      "titolo": "INDIVIDUARE SOGGETTO REPONSABILE, AMMESSO E DELEGATO",
+      "contenuto": "La prima cosa da fare \u00e8 capire come si classificano i soggetti coinvolti nella realizzazione dell'intervento ai fini della richiesta di incentivo.",
+      "pagina": 8,
+      "tags": [
+        "Soggetto Responsabile",
+        "Soggetto Ammesso",
+        "Soggetto Delegato"
+      ]
+    },
+    {
+      "titolo": "LA ESCO COME SOGGETTO RESPONSABILE",
+      "contenuto": "Quando la ESCo si configura come Soggetto Responsabile per un intervento di altro Soggetto Ammesso, la ESCo gode delle stesse prerogative di quest'ultimo.",
+      "pagina": 9,
+      "tags": [
+        "ESCO",
+        "Soggetto Responsabile",
+        "Soggetto Ammesso"
+      ]
+    }
+  ],
+  "interventi": [
+    {
+      "codice": "2.A",
+      "descrizione": "Sostituzione di impianti di climatizzazione con impianti a pompa di calore fino a 2.000 kW",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.B",
+      "descrizione": "Sostituzione di impianti di climatizzazione con generatori a biomassa fino a 2.000 kW",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.C",
+      "descrizione": "Installazione di collettori solari termici fino a 2.500 mq",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.D",
+      "descrizione": "Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.E",
+      "descrizione": "Sostituzione di impianti di climatizzazione con nuovi sistemi ibridi (caldaie a condensazione + pompa di calore)",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    }
+  ],
+  "tariffe": [],
+  "requisiti_tecnici": [],
+  "citations": [
+    "DM 16 febbraio 2016",
+    "DPR 26 agosto 1993, n.412",
+    "Decreto legislativo n. 102/2014",
+    "Decreto legislativo 19 agosto 2005, n. 192",
+    "D.Lgs. 115/2008",
+    "D.Lgs. 102/2014",
+    "UNI CEI 11352",
+    "UNI CEI EN 16247"
+  ]
+}

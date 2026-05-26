@@ -1,0 +1,142 @@
+{
+  "source": "allegato_criteri_ammissibilita.pdf",
+  "tipo": "allegato",
+  "data_documento": null,
+  "versione": "CT 2.0",
+  "sezioni": [
+    {
+      "titolo": "Criteri di ammissibilit\u00e0 per interventi di piccole dimensioni di incremento dell\u2019efficienza energetica di cui all\u2019articolo 4, comma 1",
+      "contenuto": "Requisiti di soglia per l\u2019accesso agli incentivi di cui all\u2019articolo 4, comma 1.",
+      "pagina": 1,
+      "tags": [
+        "efficienza energetica",
+        "requisiti",
+        "incentivi"
+      ]
+    },
+    {
+      "titolo": "Criteri di ammissibilit\u00e0 per interventi di piccole dimensioni di produzione di energia termica da fonti rinnovabili e con sistemi ad alta efficienza di cui all\u2019articolo 4, comma 2",
+      "contenuto": "Requisiti di soglia e le modalit\u00e0 di calcolo per l\u2019accesso agli incentivi relativi agli interventi di cui all\u2019articolo 4, comma 2.",
+      "pagina": 3,
+      "tags": [
+        "energia termica",
+        "fonti rinnovabili",
+        "requisiti",
+        "incentivi"
+      ]
+    }
+  ],
+  "interventi": [
+    {
+      "codice": "Articolo 4, comma 1, lettera a)",
+      "descrizione": "Isolamento termico di strutture opache (coperture, pavimenti, pareti perimetrali)",
+      "requisiti": [
+        "Valori di trasmittanza termica massimi consentiti (Tabella 1)",
+        "Miglioramento dell'indice di prestazione energetica di almeno il 50% (in alternativa, per edifici antecedenti al 29/10/1993)",
+        "Incremento del 15% dei valori di trasmittanza per isolamento dall'interno o in intercapedine"
+      ],
+      "incentivo": {},
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "codice": "Articolo 4, comma 1, lettera b)",
+      "descrizione": "Sostituzione di chiusure trasparenti (infissi)",
+      "requisiti": [
+        "Valori di trasmittanza termica massimi consentiti (Tabella 1)",
+        "Installazione congiunta a sistemi di termoregolazione o valvole termostatiche"
+      ],
+      "incentivo": {},
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "codice": "Articolo 4, comma 1, lettera c)",
+      "descrizione": "Installazione di generatori di calore a condensazione ad alta efficienza",
+      "requisiti": [
+        "Rendimento termico utile minimo (Tabella 2)",
+        "Installazione di valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)",
+        "Messa a punto ed equilibratura del sistema di distribuzione",
+        "Sistema di contabilizzazione individuale dell'energia termica (in caso di molteplici unit\u00e0 immobiliari)",
+        "Bruciatore modulante (per impianti >= 100 kW)",
+        "Regolazione climatica agente direttamente sul bruciatore (per impianti >= 100 kW)",
+        "Pompa elettronica a giri variabili (per impianti >= 100 kW)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "Articolo 4, comma 1, lettera d)",
+      "descrizione": "Installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti",
+      "requisiti": [
+        "Abbinamento ad almeno uno degli interventi di cui all'articolo 4, comma 1, lettere a) o b)",
+        "Prestazione di schermatura solare di classe 3 o superiore (UNI EN 14501)",
+        "Meccanismi automatici di regolazione e controllo (UNI EN 15232)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "Articolo 4, comma 2",
+      "descrizione": "Pompe di calore",
+      "requisiti": [
+        "Coefficiente di prestazione (COP o GUE) minimo (Tabelle 3 e 4)",
+        "Valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "Articolo 4, comma 2, lettera b)",
+      "descrizione": "Generatori di calore alimentati da biomassa",
+      "requisiti": [
+        "Sostituzione di generatori a biomassa, carbone, olio combustibile o gasolio",
+        "Manutenzione biennale obbligatoria",
+        "Valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    }
+  ],
+  "tariffe": [],
+  "requisiti_tecnici": [
+    "Valori di trasmittanza termica (Tabella 1)",
+    "Rendimento termico utile (Tabella 2)",
+    "Coefficiente di prestazione (COP) per pompe di calore elettriche (Tabella 3)",
+    "Coefficiente di prestazione (GUE) per pompe di calore a gas (Tabella 4)",
+    "Emissione di ossidi di azoto (NOx) per pompe di calore a gas",
+    "Indice di resa cromatica per sistemi di illuminazione",
+    "Efficienza luminosa minima per sistemi di illuminazione"
+  ],
+  "citations": [
+    "Articolo 4, comma 1",
+    "Articolo 4, comma 2",
+    "Articolo 6",
+    "Articolo 9, comma 5, lettera d) del decreto legislativo 102/2014",
+    "Articolo 3 quinquies del d.lgs. 152/2006",
+    "Articolo 15 del decreto legislativo 28/2011",
+    "Decreto del Ministro dello sviluppo economico 26 giugno 2015",
+    "Decreto del Presidente della Repubblica 26 agosto 1993, n. 412",
+    "UNI EN ISO 6946",
+    "UNI EN ISO 10077-1",
+    "UNI EN 15502",
+    "UNI EN 14511",
+    "UNI EN 12309-2",
+    "UNI EN 14501",
+    "UNI EN 13363",
+    "UNI EN 15232",
+    "Direttive 2009/125/CE e 2010/30/UE"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "source": "pompe_di_calore_regole_applicative.pdf",
+  "tipo": "regole_applicative",
+  "data_documento": "2016-02-16",
+  "versione": "CT 2.0",
+  "sezioni": [
+    {
+      "titolo": "5.8 Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW (intervento 2.A - art. 4, comma 2, lettera a)",
+      "contenuto": "L\u2019intervento incentivabile consiste nella sostituzione di impianti di climatizzazione invernale esistenti in edifici esistenti, parti di edifici esistenti o unit\u00e0 immobiliari esistenti di qualsiasi categoria catastale, con impianti di climatizzazione invernale di potenza massima inferiore o uguale a 2.000 kW21 dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica.",
+      "pagina": 1,
+      "tags": []
+    },
+    {
+      "titolo": "5.8.1 Soggetti che possono richiedere l\u2019incentivo",
+      "contenuto": "Le Amministrazioni Pubbliche e i Soggetti privati, direttamente o indirettamente tramite una ESCo. Nel primo caso il Soggetto Responsabile dell\u2019intervento \u00e8 l\u2019Amministrazione Pubblica o il soggetto privato, mentre nel secondo caso il Soggetto Responsabile \u00e8 la ESCo.",
+      "pagina": 1,
+      "tags": []
+    },
+    {
+      "titolo": "5.8.2 Requisiti tecnici per accedere all\u2019incentivo (Allegato II del Decreto)",
+      "contenuto": "Di seguito sono riportati i requisiti minimi richiesti per l\u2019accesso all\u2019incentivo:\ni. l\u2019installazione deve sostituire parzialmente o integralmente l\u2019impianto di climatizzazione invernale gi\u00e0 presente nell\u2019immobile di qualsiasi categoria catastale (tranne F). La sostituzione parziale \u00e8 ammessa solo nel caso di un impianto pre-esistente dotato di pi\u00f9 generatori di calore;\nii. la messa a punto e l\u2019equilibratura del sistema di distribuzione, regolazione e controllo;\niii. l\u2019installazione su tutti i corpi scaldanti di elementi di regolazione di tipo modulante agente sulla portata, tipo valvole termostatiche a bassa inerzia termica, a esclusione:\na. dei locali in cui l\u2019installazione di valvole termostatiche o altra regolazione di tipo modulante agente sulla portata sia dimostrata inequivocabilmente non fattibile tecnicamente nel caso specifico (cfr. Decreto 26 giugno 2015, concernente le metodologie di calcolo della prestazione energetica e la definizione delle prescrizioni e dei requisiti minimi degli edifici);\nb. dei locali in cui \u00e8 installata una centralina di termoregolazione con dispositivi modulanti per la regolazione automatica della temperatura ambiente (cfr. Decreto 26 giugno 2015, concernente le metodologie di calcolo della prestazione energetica e la definizione delle prescrizioni e dei requisiti minimi degli edifici). In caso di impianti al servizio di pi\u00f9 locali, \u00e8 possibile omettere l\u2019installazione di elementi di regolazione di tipo modulante agenti sulla portata esclusivamente sui terminali di emissione situati all\u2019interno dei locali in cui \u00e8 presente una centralina di termoregolazione, anche se questa agisce, oltre che sui terminali di quel locale, anche sui terminali di emissione installati in altri locali;\nc. degli impianti di climatizzazione invernale progettati e realizzati con temperature medie del fluido termovettore inferiori a 45\u00b0C;\niv. l\u2019installazione di efficaci sistemi di contabilizzazione individuale dell\u2019energia termica utilizzata, nel caso di impianti centralizzati a servizio di molteplici unit\u00e0 immobiliari e/o edifici;\nv. per gli interventi con potenza termica utile superiore a 200 kW, \u00e8 obbligatoria l\u2019installazione di sistemi di contabilizzazione del calore e la comunicazione al GSE delle misure dell\u2019energia termica annualmente prodotta dagli impianti e utilizzata per coprire i fabbisogni termici, secondo quanto indicato al paragrafo 6.5.\nvi. le pompe di calore elettriche devono avere un coefficiente di prestazione COP almeno pari ai valori riportati nella successiva tabella 3 del Decreto; la misura del COP deve essere dichiarata e garantita dal costruttore della pompa di calore sulla base di prove effettuate in conformit\u00e0 alla UNI EN 14511. Al momento della prova, la pompa di calore deve funzionare a pieno regime per le tipologie di pompa e condizioni di scambio termico (fluidi termovettori e temperature) ein tabella 3 del Decreto.\nvii. le pompe di calore a gas devono avere il coefficiente di prestazione GUE almeno pari ai valori riportati nella successiva tabella 4 del Decreto;\nviii. la misura di GUE deve essere dichiarata e garantita dal costruttore della pompa di calore sulla base di prove effettuate in conformit\u00e0 alle seguenti norme, restando fermo che la misura deve essere effettuata nelle condizioni di funzionamento a pieno regime per le tipologie di pompa e condizioni di scambio termico (fluidi termovettori e temperature) fissate nella tabella 4 del Decreto:\na. UNI EN 12309-2 per le pompe di calore a gas ad assorbimento (riferendo i valori di prova al potere calorifico inferiore p.c.i)\nb. UNI EN 14511:2011 per le pompe di calore a gas a motore endotermico (poich\u00e9 per le pompe di calore a gas endotermiche non esiste una norma specifica, si procede in base alla EN 14511, utilizzando il rapporto di trasformazione primario - elettrico = 0,46)\nix. le emissioni in atmosfera degli ossidi di azoto NOx (espressi come NO ), dovute al sistema di combustione, devono essere calcolati in conformit\u00e0 alla vigente normativa europea e devono essere inferiori a 120 mg/kWh per le pompe di calore a gas ad assorbimento e inferiori a 240 mg/kWh per le pompe di calore a gas con motore a combustione interna. Tali valori sono riferiti all\u2019energia termica prodotta.\nx. nel caso di pompe di calore elettriche o a gas dotate di variatore di velocit\u00e0 (inverter o altra tipologia), i pertinenti valori del COP e del GUE previsti dalle tabelle 3 e 4 del Decreto devono essere ridotti del 5%;\nPer gli interventi realizzati in interi edifici con impianto di riscaldamento di potenza nominale totale (da intendersi potenza nominale totale utile) maggiore o uguali a 200 kW, ai fini della richiesta di incentivo la diagnosi energetica ante-operm e APE post-operam sono obbligatorie, a pena di decadenza, per il riconoscimento degli incentivi.",
+      "pagina": 1,
+      "tags": []
+    },
+    {
+      "titolo": "5.8.3 Spese ammissibili ai fini del calcolo dell\u2019incentivazione (art. 5)",
+      "contenuto": "L\u2019incentivo per la sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernali dotati di pompe di calore elettriche e a gas \u00e8 stabilito sulla potenzialit\u00e0 dell\u2019intervento ed \u00e8 calcolato in funzione dell\u2019energia termica prodotta in un anno. Il riconoscimento delle spese accessorie \u00e8 incluso nei coefficienti di valorizzazione dell\u2019energia termica prodotta (C).\nLe spese accessorie, comprensive di IVA dove essa costituisce un costo, comprendono: smontaggio e dismissione dell\u2019impianto di climatizzazione invernale esistente, parziale o totale, fornitura, trasporto e posa in opera di tutte le apparecchiature termiche, meccaniche, elettriche ed elettroniche; le opere idrauliche e murarie necessarie alla sostituzione a regola dell\u2019arte di impianti di climatizzazione invernale unitamente, se del caso, a quelli di produzione di acqua calda sanitaria; i sistemi di contabilizzazione individuale; eventuali interventi sulla rete di distribuzione, sui sistemi di trattamento delle acque, sui dispositivi di controllo e regolazione, sui sistemi di estrazione e alimentazione dei combustibili, sui sistemi di emissione; opere e sistemi di captazione per le pompe di calore geotermiche; prestazioni professionali connesse alla realizzazione dell\u2019intervento.",
+      "pagina": 3,
+      "tags": []
+    },
+    {
+      "titolo": "5.8.4 Calcolo dell\u2019incentivo (Allegato II \u2013 2.1 del Decreto)",
+      "contenuto": "Pompe di calore elettriche\nPer gli interventi di sostituzione di impianti di climatizzazione invernali esistenti con impianti per la climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore elettriche, l\u2019incentivo annuo \u00e8 definito in funzione dell\u2019energia termica prodotta annualmente (definita in funzione del COP, della potenza termica nominale del generatore e di coefficienti di utilizzo dipendenti dalle zone climatiche) e di specifici coefficienti di valorizzazione dell\u2019energia (\u20ac/kWh) tabellati.\nI = E \u00b7 C\na tot i i\ncon:\nI : incentivo annuo (rata annua) in euro\na tot\nL\u2019incentivo totale (I ), \u00e8 costituito dalla sommatoria delle rate annue previste nella tabella A del Decreto;\ntot\n- 2 annualit\u00e0 per generatori con potenza termica utile nominale \u2264 35 kW;\n- 5 annualit\u00e0 per generatori con potenza termica utile nominale per generatori > 35 kW.\nL\u2019incentivo totale (I ), sar\u00e0 corrisposto in un\u2019unica soluzione per gli aventi diritto (le PA e le ESCo che operano per\ntot\nloro conto, ad esclusione delle Cooperative di abitanti e delle Cooperative sociali).\nC: coefficiente di valorizzazione dell\u2019energia termica prodotta definito nella seguente tabella 7 del Decreto:\ni\nE: energia termica incentivata prodotta in un anno, espressa in kWh e calcolata con la seguente relazione:\ni t\nE = Q \u00b7 [1-1/(COP)]\ni u\nDove:\nCOP: coefficiente di prestazione della pompa di calore installata, come dedotto dai dati forniti dal produttore, nel rispetto dei requisiti minimi espressi dalla tabella 3 del Decreto.\nLa misura del valore del COP, che concorre al calcolo dell\u2019incentivo, deve essere dichiarata e garantita dal costruttore, sulla base di prove effettuate in conformit\u00e0 alla norma UNI EN 14511:2011, alle condizioni di valutazione normalizzate, cos\u00ec come definite nella norma stessa.\nQ : calore totale prodotto dall\u2019impianto, espresso in kWh e calcolato come segue con la seguente relazione:\nu t\nQ = P \u00b7 Q\nu n uf\nCon\nP : potenza termica nominale della pompa di calore installata\nn\nQ : coefficiente di utilizzo della pompa di calore dipendente dalla zona climatica come riportato nella tabella 6 del\nuf\nDecreto.\nPompe di calore a gas\nNel caso di installazione di pompe di calore a gas, l\u2019incentivo annuo \u00e8 definito in funzione dell\u2019energia termica prodotta annualmente (definita in funzione del GUE, della potenza termica nominale del generatore e di coefficienti di utilizzo dipendenti dalle zone climatiche) e di specifici coefficienti di valorizzazione dell\u2019energia (\u20ac/kWh) tabellati.\nL\u2019incentivo annuo si calcola con la seguente formula:\nI = E \u00b7 C\na tot i i\ncon:\nI : incentivo annuo (rata annua) in euro\na tot\nL\u2019incentivo totale (I ), \u00e8 costituito dalla sommatoria delle rate annue previste nella tabella A del Decreto;\ntot\n- 2 per generatori con potenza termica utile nominale \u2264 35 kW;\n- 5 per generatori con potenza termica utile nominale per generatori > 35 kW\nL\u2019incentivo totale (I ) sar\u00e0 corrisposto in un\u2019unica soluzione per gli aventi diritto (le PA e le ESCo che operano per\ntot\nloro conto, ad esclusione delle Cooperative di abitanti e delle Cooperative sociali).\nC= coefficiente di valorizzazione dell\u2019energia termica prodotta definito nella seguente tabella 8 del Decreto\ni\nE= energia termica incentivata prodotta in un anno, espressa in kWh e calcolata con la seguente relazione:\ni t\nE = Q \u00b7 [1-1/(GUE/0,46)]\ni u\ndove:\nGUE = coefficiente di prestazione della pompa di calore installata, come dedotto dai dati forniti dal produttore, nel rispetto dei requisiti minimi espressi dalla tabella 4 del Decreto.\nSi precisa che la misura del valore del GUE che concorre al calcolo dell\u2019incentivo deve essere dichiarata e garantita dal costruttore per le pompe di calore ad assorbimento sulla base di prove effettuate in conformit\u00e0 alla norma UNI EN 12309-2 alle condizioni espresse nella tabella 4 del Decreto e per le pompe di calore a gas a motore endotermico sulla base di prove effettuate in conformit\u00e0 alla norma UNI EN 14511:2011 alle condizioni normalizzate (utilizzando il rapporto di trasformazione primario - elettrico = 0,46);\nQ = calore totale prodotto dall\u2019impianto, espresso in kWh e calcolata come segue con la seguente relazione:\nu t\nQ = P \u00b7 Q\nu n uf\nP = potenza termica nominale della pompa di calore installata\nn\nQ = coefficiente di utilizzo della pompa di calore dipendente dalla zona climatica come riportato nella tabella 6 del\nuf\nDecreto.",
+      "pagina": 4,
+      "tags": []
+    },
+    {
+      "titolo": "5.8.5 Documentazione necessaria per l\u2019accesso all\u2019incentivo",
+      "contenuto": "Ai fini della richiesta d\u2019incentivo, il Soggetto Responsabile predispone la documentazione sotto specificata e la conserva in originale per tutta la durata dell\u2019incentivo e per i 5 anni successivi all\u2019erogazione dell\u2019ultima rata. Alcuni documenti devono essere presentati unitamente alla richiesta di accesso all\u2019incentivo (in formato PDF), caricandoli sul Portaltermico all\u2019atto della presentazione della richiesta medesima; altri devono essere conservati a cura del Soggetto Responsabile. Il GSE potr\u00e0 richiedere copia di tutti i documenti in qualsiasi momento e la stessa documentazione dovr\u00e0 essere mostrata in originale in caso di verifica in situ.\nDocumentazione da allegare alla richiesta di accesso all\u2019incentivo:\n1. documentazione comune a tutte le tipologie di interventi, come specificatamente indicato nell\u2019Allegato 1;\n2. per gli interventi che prevedono l\u2019installazione di generatori di potenza termica nominale \u2264 35 kW non ricompresi nel Catalogo, l\u2019asseverazione di un tecnico abilitato non \u00e8 obbligatoria; in questo caso \u00e8 sufficiente una certificazione del produttore degli elementi impiegati, che attesti il rispetto dei requisiti minimi previsti dal Decreto e dalle relative Regole Applicative, per interventi con incentivo superiore a 3.500 euro;\n3. per gli interventi che prevedono l\u2019installazione di generatori di potenza termica nominale > 35 kW, l\u2019asseverazione di un tecnico abilitato secondo quanto indicato nel paragrafo 6.2 pi\u00f9 una certificazione del produttore degli elementi impiegati che attesti il rispetto dei requisiti minimi previsti dal Decreto e dalle relative Regole Applicative per interventi con incentivo superiore a 3.500 euro;\n4. nel caso di installazione di un generatore di calore avente potenza termica nominale maggiore o uguale a 100 kW, relazione tecnica di progetto, timbrata e firmata dal progettista, corredata degli schemi funzionali d\u2019impianto (per impianti geotermici anche lo schema di posizionamento delle sonde);\n5. documentazione fotografica attestante l\u2019intervento, raccolta in documento elettronico in formato PDF con un numero minimo di 7 foto riportanti:\n\uf0b7 le targhe dei generatori sostituiti e installati (di ciascuna delle unit\u00e0 che costituiscono i generatori);\n\uf0b7 i generatori sostituiti e installati;\n\uf0b7 la centrale termica, o il locale di installazione, ante-operam (presente il generatore sostituito) e post-operam (presente il generatore installato);\n\uf0b7 le valvole termostatiche o del sistema di regolazione modulante della portata.\nSi precisa, infine che, in caso in cui il generatore sostituito sia della tipologia a pompa di calore \u00e8 necessario inviare la fotografia delle targhe dalle quali si evinca la potenza in riscaldamento. In assenza di tali targhe, in alternativa, si richiede di trasmettere adeguata documentazione tecnica atta a dimostrare la potenza in riscaldamento e che sia un impianto destinato alla climatizzazione invernale.\nDocumentazione da conservare a cura del Soggetto Responsabile\n1) per interventi non a Catalogo e per interventi con incentivi \u2264 3.500 euro certificazione del produttore e scheda tecnica del produttore del generatore di calore che pu\u00f2 essere parte della certificazione del produttore di cui ai precedenti punti 2 e 3, che attestino il rispetto dei requisiti minimi richiesti dal Decreto, e, se di nuova installazione, dei sistemi di termoregolazione o valvole termostatiche;\n2) certificato del corretto smaltimento del generatore di calore sostituito o un documento analogo attestante che il generatore \u00e8 stato consegnato a un apposito centro per lo smaltimento (paragrafo 6.4);\n3) dichiarazione di conformit\u00e0 dell\u2019impianto, ove prevista, ai sensi del DM 37/08;\n4) libretto di centrale/d\u2019impianto, come previsto dalla legislazione vigente;\n5) nel caso di installazione di un generatore di calore avente potenza termica nominale maggiore o uguale a 35 kW e inferiore a 100 kW, relazione tecnica di progetto, timbrata e firmata dal progettista (o altro soggetto avente diritto ai sensi della normativa tecnica vigente), corredata degli schemi funzionali (per impianti geotermici anche lo schema di posizionamento delle sonde);\n6) per impianti geotermici di potenza termica nominale minore di 35 kW, schema di posizionamento delle sonde;\n7) pertinente titolo autorizzativo e/o abilitativo, ove previsto dalla vigente legislazione/normativa nazionale e locale;\n8) nel caso di intervento in edifici sottoposti a ristrutturazioni rilevanti, relazione, redatta da tecnico abilitato, attestante la quota d\u2019obbligo per gli impianti di produzione di energia termica ai sensi dell\u2019art. 11, comma 4, del D.Lgs. 28/11 e, conseguentemente, la quota dell\u2019intervento eccedente l\u2019adempimento dell\u2019obbligo, che accede agli incentivi del Decreto, per richieste il cui titolo edilizio sia presentato tra il 31 maggio 2012 e fino al 13 giugno 2022;\n9) nel caso in cui l\u2019intervento sia realizzato su interi edifici con impianti di riscaldamento di potenza nominale del focolare maggiore o uguale a 200 kW (art. 15, comma 1):\n\uf0b7 attestato di prestazione energetica post-operam (redatto secondo D.Lgs. 192/05 e s.m.i. e disposizioni regionali vigenti, ove presenti);\n\uf0b7 diagnosi energetica precedente l\u2019intervento.",
+      "pagina": 8,
+      "tags": []
+    }
+  ],
+  "interventi": [
+    {
+      "codice": "2.A",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+      "requisiti": [
+        "Sostituzione parziale o integrale dell'impianto di climatizzazione invernale esistente (tranne categoria catastale F)",
+        "Messa a punto ed equilibratura del sistema di distribuzione, regolazione e controllo",
+        "Installazione di elementi di regolazione di tipo modulante agente sulla portata (valvole termostatiche a bassa inerzia termica) su tutti i corpi scaldanti, con eccezioni specificate",
+        "Installazione di sistemi di contabilizzazione individuale dell'energia termica utilizzata (impianti centralizzati)",
+        "Installazione di sistemi di contabilizzazione del calore e comunicazione al GSE delle misure dell'energia termica (potenza termica utile > 200 kW)",
+        "COP minimo per pompe di calore elettriche (UNI EN 14511)",
+        "GUE minimo per pompe di calore a gas (UNI EN 12309-2 o UNI EN 14511:2011)",
+        "Emissioni NOx inferiori a 120 mg/kWh (pompe di calore a gas ad assorbimento) o 240 mg/kWh (pompe di calore a gas con motore a combustione interna)",
+        "Riduzione del 5% dei valori COP e GUE per pompe di calore con variatore di velocit\u00e0",
+        "Diagnosi energetica ante-operam e APE post-operam (interi edifici con potenza nominale totale >= 200 kW)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    }
+  ],
+  "tariffe": [],
+  "requisiti_tecnici": [
+    {
+      "tipo": "Pompe di calore elettriche",
+      "requisito": "COP",
+      "condizioni": "Ambiente esterno/interno aria/aria: Bulbo secco all\u2019entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C, Bulbo umido all\u2019entrata: 15\u00b0C",
+      "valore": "3,9"
+    },
+    {
+      "tipo": "Pompe di calore elettriche",
+      "requisito": "COP",
+      "condizioni": "Ambiente esterno/interno aria/acqua potenza termica utile riscaldamento \u2264 35 kW: Bulbo secco all\u2019entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Temperatura entrata: 30\u00b0C, Temperatura uscita: 35\u00b0C",
+      "valore": "4,1"
+    },
+    {
+      "tipo": "Pompe di calore elettriche",
+      "requisito": "COP",
+      "condizioni": "Ambiente esterno/interno aria/acqua potenza termica utile riscaldamento > 35 kW: Bulbo secco all\u2019entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Temperatura entrata: 30\u00b0C, Temperatura uscita: 35\u00b0C",
+      "valore": "3,8"
+    },
+    {
+      "tipo": "Pompe di calore elettriche",
+      "requisito": "COP",
+      "condizioni": "Ambiente esterno/interno salamoia/aria: Temperatura entrata: 0\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C, Bulbo umido all\u2019entrata: 15\u00b0C",
+      "valore": "4,3"
+    },
+    {
+      "tipo": "Pompe di calore elettriche",
+      "requisito": "COP",
+      "condizioni": "Ambiente esterno/interno salamoia/acqua: Temperatura entrata: 0\u00b0C / Temperatura entrata: 30\u00b0C, Temperatura uscita: 35\u00b0C",
+      "valore": "4,3"
+    },
+    {
+      "tipo": "Pompe di calore elettriche",
+      "requisito": "COP",
+      "condizioni": "Ambiente esterno/interno acqua/aria: Temperatura entrata: 10\u00b0C, Temperatura uscita: 7\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C, Bulbo umido entrata: 15\u00b0C",
+      "valore": "4,7"
+    },
+    {
+      "tipo": "Pompe di calore elettriche",
+      "requisito": "COP",
+      "condizioni": "Ambiente esterno/interno acqua/acqua: Temperatura entrata: 10\u00b0C / Temperatura entrata: 30\u00b0C, Temperatura uscita: 35\u00b0C",
+      "valore": "5,1"
+    },
+    {
+      "tipo": "Pompe di calore a gas",
+      "requisito": "GUE",
+      "condizioni": "Ambiente esterno/interno aria/aria: Bulbo secco all\u2019 entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C",
+      "valore": "1,46"
+    },
+    {
+      "tipo": "Pompe di calore a gas",
+      "requisito": "GUE",
+      "condizioni": "Ambiente esterno/interno aria/acqua: Bulbo secco all\u2019 entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Temperatura entrata: 30\u00b0C(*)",
+      "valore": "1,38"
+    },
+    {
+      "tipo": "Pompe di calore a gas",
+      "requisito": "GUE",
+      "condizioni": "Ambiente esterno/interno salamoia/aria: Temperatura entrata: 0\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C",
+      "valore": "1,59"
+    },
+    {
+      "tipo": "Pompe di calore a gas",
+      "requisito": "GUE",
+      "condizioni": "Ambiente esterno/interno salamoia/ acqua: Temperatura entrata: 0\u00b0C / Temperatura entrata: 30\u00b0C(*)",
+      "valore": "1,47"
+    },
+    {
+      "tipo": "Pompe di calore a gas",
+      "requisito": "GUE",
+      "condizioni": "Ambiente esterno/interno acqua/aria: Temperatura entrata: 10\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C",
+      "valore": "1,60"
+    },
+    {
+      "tipo": "Pompe di calore a gas",
+      "requisito": "GUE",
+      "condizioni": "Ambiente esterno/interno acqua/acqua: Temperatura entrata: 10\u00b0C / Temperatura entrata: 30\u00b0C(*)",
+      "valore": "1,56"
+    }
+  ],
+  "citations": []
+}

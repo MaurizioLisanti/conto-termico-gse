@@ -1,0 +1,1881 @@
+{
+  "documenti": [
+    {
+      "source": "decreto_dm_16_02_2016.pdf",
+      "tipo": "decreto",
+      "data_documento": "2016-02-16",
+      "versione": "CT 2.0",
+      "sezioni": [
+        {
+          "titolo": "Finalit\u00e0 e ambito di applicazione",
+          "contenuto": "Art. 1. Il presente decreto aggiorna la disciplina per l\u2019incentivazione di interventi di piccole dimensioni per l\u2019incremento dell\u2019efficienza energetica e per la produzione di energia termica da fonti rinnovabili secondo principi di semplificazione, efficacia, diversificazione e innovazione tecnologica nonch\u00e9 di coerenza con gli obiettivi di riqualificazione energetica degli edifici della pubblica amministrazione.",
+          "pagina": 3,
+          "tags": []
+        },
+        {
+          "titolo": "Definizioni",
+          "contenuto": "Art. 2. Ai fini dell\u2019applicazione del presente decreto valgono le definizioni di cui al decreto legislativo 19 agosto 2005, n.192, al decreto legislativo 3 marzo 2011, n. 28, al decreto legislativo 30 maggio 2008, n. 115 e al decreto legislativo 4 luglio 2014, n. 102. Si applicano altres\u00ec le definizioni di cui al decreto del Ministro dello sviluppo economico 26 giugno 2015, concernente l\u2019applicazione delle metodologie di calcolo delle prestazioni energetiche e definizione delle prescrizioni e dei requisiti minimi negli edifici, di seguito solo \u201cdecreto requisiti minimi\u201d.",
+          "pagina": 3,
+          "tags": []
+        },
+        {
+          "titolo": "Soggetti ammessi",
+          "contenuto": "Art. 3. Sono ammessi ai benefici previsti dal presente decreto: a) le amministrazioni pubbliche, relativamente alla realizzazione di uno o pi\u00f9 degli interventi di cui all\u2019articolo 4; b) i soggetti privati, relativamente alla realizzazione di uno o pi\u00f9 degli interventi di cui all\u2019articolo 4, comma 2.",
+          "pagina": 6,
+          "tags": []
+        },
+        {
+          "titolo": "Tipologie di interventi incentivabili",
+          "contenuto": "Art. 4. Sono incentivabili, alle condizioni e secondo le modalit\u00e0 di cui agli Allegati I e II, ivi comprese le spese ammissibili di cui all\u2019articolo 5, i seguenti interventi di incremento dell\u2019efficienza energetica in edifici esistenti, parti di edifici esistenti o unit\u00e0 immobiliari esistenti di qualsiasi categoria catastale, dotati di impianto di climatizzazione: ...",
+          "pagina": 6,
+          "tags": []
+        },
+        {
+          "titolo": "Spese ammissibili ai fini del calcolo dell\u2019incentivo",
+          "contenuto": "Art. 5. Per gli interventi incentivabili di cui all\u2019articolo 4, concorrono alla determinazione delle spese ammissibili ai fini dell\u2019incentivo quelle di seguito elencate, comprensive di IVA, dove essa costituisca un costo:",
+          "pagina": 8,
+          "tags": []
+        },
+        {
+          "titolo": "Procedura di accesso agli incentivi",
+          "contenuto": "Art. 6. Ai fini dell\u2019accesso agli incentivi di cui al presente decreto, il soggetto responsabile presenta domanda al GSE attraverso la scheda-domanda, resa disponibile dallo stesso GSE tramite il Portaltermico.",
+          "pagina": 10,
+          "tags": []
+        },
+        {
+          "titolo": "Ammontare e durata dell\u2019incentivo",
+          "contenuto": "Art. 7. Fatto salvo quanto previsto ai successivi commi, gli interventi di cui all\u2019articolo 4 sono incentivati in rate annuali costanti, per la durata definita nella Tabella A, secondo le modalit\u00e0 di cui agli Allegati al presente decreto.",
+          "pagina": 13,
+          "tags": []
+        }
+      ],
+      "interventi": [
+        {
+          "codice": "4.1.a",
+          "descrizione": "isolamento termico di superfici opache delimitanti il volume climatizzato",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.1.b",
+          "descrizione": "sostituzione di chiusure trasparenti comprensive di infissi delimitanti il volume climatizzato",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.1.c",
+          "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale utilizzanti generatori di calore a condensazione",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.1.d",
+          "descrizione": "installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti con esposizione da Est-sud-est a Ovest, fissi o mobili, non trasportabili",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.1.e",
+          "descrizione": "trasformazione degli edifici esistenti in \u201cedifici a energia quasi zero\u201d",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.1.f",
+          "descrizione": "sostituzione di sistemi per l\u2019illuminazione d\u2019interni e delle pertinenze esterne degli edifici esistenti con sistemi efficienti di illuminazione",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.1.g",
+          "descrizione": "installazione di tecnologie di gestione e controllo automatico (building automation) degli impianti termici ed elettrici degli edifici, ivi compresa l\u2019installazione di sistemi di termoregolazione e contabilizzazione del calore",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.2.a",
+          "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.2.b",
+          "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti o di riscaldamento delle serre e dei fabbricati rurali esistenti con impianti di climatizzazione invernale dotati di generatore di calore alimentato da biomassa, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.2.c",
+          "descrizione": "installazione di impianti solari termici per la produzione di acqua calda sanitaria e/o ad integrazione dell\u2019impianto di climatizzazione invernale, anche abbinati a sistemi di solar cooling, per la produzione di energia termica per processi produttivi o immissione in reti di teleriscaldamento e teleraffreddamento. Nel caso di superfici del campo solare superiori a 100 m2 \u00e8 richiesta l\u2019installazione di sistemi di contabilizzazione del calore",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.2.d",
+          "descrizione": "sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "4.2.e",
+          "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con sistemi ibridi a pompa di calore",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        }
+      ],
+      "tariffe": [],
+      "requisiti_tecnici": [],
+      "citations": []
+    },
+    {
+      "source": "allegato_criteri_ammissibilita.pdf",
+      "tipo": "allegato",
+      "data_documento": null,
+      "versione": "CT 2.0",
+      "sezioni": [
+        {
+          "titolo": "Criteri di ammissibilit\u00e0 per interventi di piccole dimensioni di incremento dell\u2019efficienza energetica di cui all\u2019articolo 4, comma 1",
+          "contenuto": "Requisiti di soglia per l\u2019accesso agli incentivi di cui all\u2019articolo 4, comma 1.",
+          "pagina": 1,
+          "tags": [
+            "efficienza energetica",
+            "requisiti",
+            "incentivi"
+          ]
+        },
+        {
+          "titolo": "Criteri di ammissibilit\u00e0 per interventi di piccole dimensioni di produzione di energia termica da fonti rinnovabili e con sistemi ad alta efficienza di cui all\u2019articolo 4, comma 2",
+          "contenuto": "Requisiti di soglia e le modalit\u00e0 di calcolo per l\u2019accesso agli incentivi relativi agli interventi di cui all\u2019articolo 4, comma 2.",
+          "pagina": 3,
+          "tags": [
+            "energia termica",
+            "fonti rinnovabili",
+            "requisiti",
+            "incentivi"
+          ]
+        }
+      ],
+      "interventi": [
+        {
+          "codice": "Articolo 4, comma 1, lettera a)",
+          "descrizione": "Isolamento termico di strutture opache (coperture, pavimenti, pareti perimetrali)",
+          "requisiti": [
+            "Valori di trasmittanza termica massimi consentiti (Tabella 1)",
+            "Miglioramento dell'indice di prestazione energetica di almeno il 50% (in alternativa, per edifici antecedenti al 29/10/1993)",
+            "Incremento del 15% dei valori di trasmittanza per isolamento dall'interno o in intercapedine"
+          ],
+          "incentivo": {},
+          "zone_climatiche": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "codice": "Articolo 4, comma 1, lettera b)",
+          "descrizione": "Sostituzione di chiusure trasparenti (infissi)",
+          "requisiti": [
+            "Valori di trasmittanza termica massimi consentiti (Tabella 1)",
+            "Installazione congiunta a sistemi di termoregolazione o valvole termostatiche"
+          ],
+          "incentivo": {},
+          "zone_climatiche": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "codice": "Articolo 4, comma 1, lettera c)",
+          "descrizione": "Installazione di generatori di calore a condensazione ad alta efficienza",
+          "requisiti": [
+            "Rendimento termico utile minimo (Tabella 2)",
+            "Installazione di valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)",
+            "Messa a punto ed equilibratura del sistema di distribuzione",
+            "Sistema di contabilizzazione individuale dell'energia termica (in caso di molteplici unit\u00e0 immobiliari)",
+            "Bruciatore modulante (per impianti >= 100 kW)",
+            "Regolazione climatica agente direttamente sul bruciatore (per impianti >= 100 kW)",
+            "Pompa elettronica a giri variabili (per impianti >= 100 kW)"
+          ],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "Articolo 4, comma 1, lettera d)",
+          "descrizione": "Installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti",
+          "requisiti": [
+            "Abbinamento ad almeno uno degli interventi di cui all'articolo 4, comma 1, lettere a) o b)",
+            "Prestazione di schermatura solare di classe 3 o superiore (UNI EN 14501)",
+            "Meccanismi automatici di regolazione e controllo (UNI EN 15232)"
+          ],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "Articolo 4, comma 2",
+          "descrizione": "Pompe di calore",
+          "requisiti": [
+            "Coefficiente di prestazione (COP o GUE) minimo (Tabelle 3 e 4)",
+            "Valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)"
+          ],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "Articolo 4, comma 2, lettera b)",
+          "descrizione": "Generatori di calore alimentati da biomassa",
+          "requisiti": [
+            "Sostituzione di generatori a biomassa, carbone, olio combustibile o gasolio",
+            "Manutenzione biennale obbligatoria",
+            "Valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)"
+          ],
+          "incentivo": {},
+          "zone_climatiche": []
+        }
+      ],
+      "tariffe": [],
+      "requisiti_tecnici": [
+        "Valori di trasmittanza termica (Tabella 1)",
+        "Rendimento termico utile (Tabella 2)",
+        "Coefficiente di prestazione (COP) per pompe di calore elettriche (Tabella 3)",
+        "Coefficiente di prestazione (GUE) per pompe di calore a gas (Tabella 4)",
+        "Emissione di ossidi di azoto (NOx) per pompe di calore a gas",
+        "Indice di resa cromatica per sistemi di illuminazione",
+        "Efficienza luminosa minima per sistemi di illuminazione"
+      ],
+      "citations": [
+        "Articolo 4, comma 1",
+        "Articolo 4, comma 2",
+        "Articolo 6",
+        "Articolo 9, comma 5, lettera d) del decreto legislativo 102/2014",
+        "Articolo 3 quinquies del d.lgs. 152/2006",
+        "Articolo 15 del decreto legislativo 28/2011",
+        "Decreto del Ministro dello sviluppo economico 26 giugno 2015",
+        "Decreto del Presidente della Repubblica 26 agosto 1993, n. 412",
+        "UNI EN ISO 6946",
+        "UNI EN ISO 10077-1",
+        "UNI EN 15502",
+        "UNI EN 14511",
+        "UNI EN 12309-2",
+        "UNI EN 14501",
+        "UNI EN 13363",
+        "UNI EN 15232",
+        "Direttive 2009/125/CE e 2010/30/UE"
+      ]
+    },
+    {
+      "source": "regole_applicative_ct.pdf",
+      "tipo": "regole_applicative",
+      "data_documento": "2025-02-01",
+      "versione": "CT 2.0",
+      "sezioni": [
+        {
+          "titolo": "1 QUADRO GENERALE",
+          "contenuto": "Nel presente documento sono illustrate le Regole Applicative per l\u2019attuazione delle disposizioni del D.M. 16 febbraio 2016 (di seguito, \u201cDecreto\u201d o \u201cConto Termico\u201d), recante l\u2019\u201caggiornamento della disciplina per l\u2019incentivazione di interventi di piccole dimensioni per l\u2019incremento dell\u2019efficienza energetica e per la produzione di energia termica da fonti rinnovabili\u201d, in vigore dal 31 maggio 2016.\nIl documento, redatto ai sensi dell\u2019art. 8, comma 2, del Decreto, descrive le modalit\u00e0 di accesso agli incentivi, nonch\u00e9 le modalit\u00e0 di comunicazione delle modifiche tecnico-amministrative relative ad impianti incentivati in Conto Termico, con l\u2019obiettivo di rendere trasparente e chiaro il meccanismo incentivante nonch\u00e9 l\u2019intera fase di istruttoria tecnico amministrativa condotta dal GSE.\nIn particolare saranno descritte:\n\u2022 le figure dei Soggetti ammessi ai benefici;\n\u2022 le tipologie di intervento incentivabile;\n\u2022 l\u2019iter istruttorio condotto dal GSE e le modalit\u00e0 di interazione durante il procedimento di valutazione;\n\u2022 le modalit\u00e0 di invio della richiesta di concessione dell\u2019incentivo a seguito della realizzazione dell\u2019intervento (accesso diretto), ovvero di prenotazione dell\u2019incentivo;\n\u2022 la documentazione da presentare e conservare;\n\u2022 le modalit\u00e0 di calcolo e di erogazione degli incentivi;\n\u2022 la gestione delle modifiche tecnico-amministrative dell\u2019impianto incentivato;\n\u2022 i controlli e le verifiche.\nInoltre per ogni tipologia di intervento saranno riepilogati i seguenti aspetti salienti:\n\u2022 i Soggetti Ammessi;\n\u2022 i requisiti tecnici previsti dal decreto;\n\u2022 le spese ammesse al calcolo dell\u2019incentivo;\n\u2022 l\u2019algoritmo di calcolo dell\u2019incentivo;\n\u2022 la documentazione da allegare alla scheda-domanda ad accesso diretto;\n\u2022 la documentazione da conservare a cura del Soggetto Responsabile.\nInoltre sulla pagina Conto Termico del sito web del GSE sono disponibili alcuni modelli, indicati negli Allegati alle presenti Regole, volti a facilitare l\u2019interazione con il GSE, standardizzando le modalit\u00e0 con cui inviare le pi\u00f9 frequenti richieste. Sul sito web del GSE potr\u00e0 essere resa disponibile ulteriore documentazione volta a fornire specifici chiarimenti sui requisiti di ammissione degli interventi.\nNel seguito si forniscono gli elementi per la corretta applicazione delle principali norme del Decreto.",
+          "pagina": 6,
+          "tags": []
+        },
+        {
+          "titolo": "1.1 Tipologie degli interventi incentivabili",
+          "contenuto": "In conformit\u00e0 a quanto previsto dal Decreto, sono incentivabili gli interventi di incremento dell\u2019efficienza energetica in edifici esistenti, parti di essi o unit\u00e0 immobiliari esistenti (art. 4, comma 1), nonch\u00e9 gli interventi di piccole dimensioni di produzione di energia termica da fonti rinnovabili e di sistemi ad alta efficienza realizzati in edifici esistenti, parti di essi o unit\u00e0 immobiliari esistenti (art. 4, comma 2), secondo le modalit\u00e0 sinteticamente descritte nelle seguenti tabelle:",
+          "pagina": 7,
+          "tags": []
+        },
+        {
+          "titolo": "1.2 Soggetti Ammessi e Soggetti Responsabili",
+          "contenuto": "In conformit\u00e0 a quanto previsto dall\u2019art. 3 del Decreto, i Soggetti Ammessi (SA) sono i Soggetti che beneficiano degli incentivi, a condizione che:\n1. siano titolari di diritto di propriet\u00e0 dell\u2019edificio/immobile ove l\u2019intervento deve essere realizzato;\n2. abbiano la disponibilit\u00e0 dell\u2019edificio/immobile ove l\u2019intervento deve essere realizzato, in quanto titolari di altro diritto reale o di diritto personale di godimento (soggetti ammessi equiparati).\nIn particolare, i Soggetti Ammessi previsti dal Decreto sono:\n- le Amministrazioni Pubbliche (di seguito anche PA), che possono accedere al Conto Termico per la realizzazione di uno o pi\u00f9 degli interventi previsti dall\u2019articolo 4, commi 1 e 2 del Decreto;\n- i Soggetti privati intesi, ad esempio, come persone fisiche, condomini e Soggetti titolari di reddito di impresa o di reddito agrario, che possono accedere al Conto Termico per la realizzazione di uno o pi\u00f9 degli interventi previsti dall\u2019articolo 4, comma 2 del Decreto.",
+          "pagina": 8,
+          "tags": []
+        },
+        {
+          "titolo": "1.3 Modalit\u00e0 di accesso e incentivi",
+          "contenuto": "Il Decreto definisce due diverse modalit\u00e0 di accesso ai meccanismi di incentivazione:\n1. accesso diretto: a seguito della conclusione degli interventi, il Soggetto Responsabile trasmette al GSE, attraverso l\u2019apposita sezione del Portaltermico, specifica istanza di concessione degli incentivi, redatta secondo il modello indicato nell\u2019Allegato 2 delle presenti Regole Applicative.\n2. prenotazione: ricorrendo le condizioni di cui all\u2019art. 6, le PA, e le ESCo che operano per conto della PA, ad esclusione delle Cooperative di Abitanti e le Cooperative Sociali, possono presentare al GSE, per la prenotazione dell\u2019incentivo, una scheda domanda a preventivo, redatta secondo il modello contenuto nell\u2019Allegato 2 delle presenti Regole Applicative.\nNella tabella 2 sono sinteticamente riportate le differenti modalit\u00e0 di accesso agli incentivi in funzione del Soggetto Ammesso e delle tipologie di intervento, con indicazione della relativa durata dell\u2019incentivo.",
+          "pagina": 14,
+          "tags": []
+        },
+        {
+          "titolo": "5.1 Isolamento termico di superfici opache delimitanti il volume climatizzato (intervento 1.A - art. 4, comma 1, lettera a)",
+          "contenuto": null,
+          "pagina": 41,
+          "tags": []
+        },
+        {
+          "titolo": "5.2 Sostituzione di chiusure trasparenti comprensive di infissi delimitanti il volume climatizzato (intervento 1.B - art. 4, comma 1, lettera b)",
+          "contenuto": null,
+          "pagina": 46,
+          "tags": []
+        },
+        {
+          "titolo": "5.3 Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale utilizzanti generatori di calore a condensazione (intervento 1.C - art. 4, comma 1, lettera c)",
+          "contenuto": null,
+          "pagina": 50,
+          "tags": []
+        },
+        {
+          "titolo": "5.4 Installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti con esposizione da Est-Sud-Est a Ovest, fissi o mobili, non trasportabili (intervento 1.D - art. 4, comma 1, lettera d)",
+          "contenuto": null,
+          "pagina": 55,
+          "tags": []
+        },
+        {
+          "titolo": "5.5 Trasformazione degli edifici esistenti in \u201cedifici a energia quasi zero\u201d (intervento 1.E - art. 4, comma 1, lettera e)",
+          "contenuto": null,
+          "pagina": 58,
+          "tags": []
+        },
+        {
+          "titolo": "5.6 Sostituzione di sistemi per l\u2019illuminazione d\u2019interni e delle pertinenze esterne degli edifici esistenti con sistemi efficienti di illuminazione (intervento 1.F - art. 4, comma 1, lettera f)",
+          "contenuto": null,
+          "pagina": 62,
+          "tags": []
+        },
+        {
+          "titolo": "5.7 Installazione di tecnologie di gestione e controllo automatico (building automation) degli impianti termici ed elettrici degli edifici, ivi compresa l\u2019installazione di sistemi di termoregolazione e contabilizzazione del calore (intervento 1.G - art. 4, comma 1, lettera g)",
+          "contenuto": null,
+          "pagina": 66,
+          "tags": []
+        },
+        {
+          "titolo": "5.8 Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW (intervento 2.A - art. 4, comma 2, lettera a)",
+          "contenuto": null,
+          "pagina": 69,
+          "tags": []
+        },
+        {
+          "titolo": "5.9 Sostituzione di impianti di climatizzazione invernale esistenti o di riscaldamento delle serre e dei fabbricati rurali esistenti con impianti di climatizzazione invernale dotati di generatore di calore alimentato da biomassa, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW (intervento 2.B - art. 4, comma 2, lettera b)",
+          "contenuto": null,
+          "pagina": 78,
+          "tags": []
+        },
+        {
+          "titolo": "5.10 Installazione di impianti solari termici per la produzione di acqua calda sanitaria e/o ad integrazione dell\u2019impianto di climatizzazione invernale, anche abbinati a sistemi di solar cooling, per la produzione di energia termica per processi produttivi o immissione in reti di teleriscaldamento e raffreddamento. Nel caso di superfici del campo solare superiori a 100 m2 \u00e8 richiesta l\u2019installazione di sistemi di contabilizzazione del calore (intervento 2.C - art. 4, comma 2, lettera c)",
+          "contenuto": null,
+          "pagina": 91,
+          "tags": []
+        },
+        {
+          "titolo": "5.11 Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore (intervento 2.D - art. 4, comma 2, lettera d)",
+          "contenuto": null,
+          "pagina": 98,
+          "tags": []
+        },
+        {
+          "titolo": "5.12 Sostituzione di impianti di climatizzazione invernale esistenti con sistemi ibridi a pompa di calore. (intervento 2.E - art. 4, comma 2, lettera e)",
+          "contenuto": null,
+          "pagina": 101,
+          "tags": []
+        },
+        {
+          "titolo": "5.13 Diagnosi energetiche preliminari e certificazioni energetiche",
+          "contenuto": null,
+          "pagina": 106,
+          "tags": []
+        },
+        {
+          "titolo": "6 PRECISAZIONI",
+          "contenuto": null,
+          "pagina": 108,
+          "tags": []
+        }
+      ],
+      "interventi": [
+        {
+          "codice": "1.A",
+          "descrizione": "Isolamento termico di superfici opache delimitanti il volume climatizzato",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.B",
+          "descrizione": "Sostituzione di chiusure trasparenti comprensive di infissi delimitanti il volume climatizzato",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.C",
+          "descrizione": "Sostituzione di impianti di climatizzazione invernale con generatori di calore a condensazione",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.D",
+          "descrizione": "Installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti con esposizione da ESE a O, fissi o mobili, non trasportabili",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.E",
+          "descrizione": "Trasformazione in \u201cedifici a energia quasi zero\u201d",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.F",
+          "descrizione": "Sostituzione di sistemi per l\u2019illuminazione di interni e delle pertinenze esterne esistenti con sistemi di illuminazione efficienti",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.G",
+          "descrizione": "Installazione di tecnologie di gestione e controllo automatico (building automation) degli impianti termici ed elettrici, inclusa l\u2019installazione di sistemi di termoregolazione e contabilizzazione del calore",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.A",
+          "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale utilizzanti pompe di calore elettriche o a gas, anche geotermiche (con potenza termica utile nominale fino a 2000 kW)",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.B",
+          "descrizione": "Sostituzione di impianti di climatizzazione invernale o di riscaldamento delle serre esistenti e dei fabbricati rurali esistenti con generatori di calore alimentati da biomassa (con potenza termica nominale fino a 2000 kW)",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.C",
+          "descrizione": "Installazione di collettori solari termici, anche abbinati a sistemi di solar cooling (con superficie solare lorda fino a 2500 m2)",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.D",
+          "descrizione": "Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.E",
+          "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con sistemi ibridi a pompa di calore",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        }
+      ],
+      "tariffe": [],
+      "requisiti_tecnici": [],
+      "citations": []
+    },
+    {
+      "source": "ct3_webinar_2026.pdf",
+      "tipo": "regole_applicative",
+      "data_documento": "2026-02-03",
+      "versione": "CT 3.0",
+      "sezioni": [
+        {
+          "titolo": "INTRODUZIONE AL CONTO TERMICO 3.0",
+          "contenuto": "Panoramica dei Soggetti Ammessi e Interventi, Diagnosi Energetica, Quantificazione Incentivi, Interventi Incentivabili del Titolo III, Caso Studio.",
+          "pagina": 2,
+          "tags": []
+        },
+        {
+          "titolo": "NOVIT\u00c0 INTRODOTTE DAL CONTO TERMICO 3.0",
+          "contenuto": "Specializzazione meccanismo, Estensione perimetro, Semplificazione procedure, Ampliamento tecnologie, Modulazione del Contingente di spesa, Introduzione di soluzioni tecnologiche, Aumento dei massimali, Accesso tramite CER.",
+          "pagina": 3,
+          "tags": []
+        },
+        {
+          "titolo": "REQUISITI E GESTIONE DEL TRANSITORIO",
+          "contenuto": "Requisiti dei Soggetti Ammessi, Quantificazione incentivi, Modalit\u00e0 di accesso, Disposizioni finali e Modalit\u00e0 di gestione del transitorio con il CT 2.0.",
+          "pagina": 4,
+          "tags": []
+        },
+        {
+          "titolo": "DISPOSIZIONI FINALI E PERIODO TRANSITORIO",
+          "contenuto": "Transizione dal CT 2.0 al CT 3.0 per diverse fattispecie di istanze presentate.",
+          "pagina": 5,
+          "tags": []
+        },
+        {
+          "titolo": "SOGGETTI AMMESSI E INTERVENTI INCENTIVABILI",
+          "contenuto": "Soggetti Ammessi agli incentivi, Soggetti Responsabili, Modalit\u00e0 di accesso.",
+          "pagina": 6,
+          "tags": []
+        },
+        {
+          "titolo": "SOGGETTI AMMESSI AGLI INCENTIVI",
+          "contenuto": "Pubblica Amministrazione, Soggetti Privati, Enti del Terzo Settore.",
+          "pagina": 7,
+          "tags": []
+        },
+        {
+          "titolo": "SOGGETTI PRIVATI",
+          "contenuto": "Definizione di impresa e categorie di soggetti privati ammessi.",
+          "pagina": 8,
+          "tags": []
+        },
+        {
+          "titolo": "SPECIALIZZAZIONE PER IL SETTORE TERZIARIO",
+          "contenuto": "Interventi di efficienza energetica degli edifici del settore terziario e categorie catastali ammissibili.",
+          "pagina": 9,
+          "tags": []
+        },
+        {
+          "titolo": "SOGGETTI AMMESSI AGLI INCENTIVI PER INTERVENTI",
+          "contenuto": "Tabella riassuntiva dei soggetti ammessi ai Titoli II e III.",
+          "pagina": 10,
+          "tags": []
+        },
+        {
+          "titolo": "INTERVENTI INCENTIVABILI",
+          "contenuto": "Titolo II (Riqualificazione Energetica) e Titolo III (Impianti a Fonte Rinnovabile).",
+          "pagina": 11,
+          "tags": []
+        },
+        {
+          "titolo": "ACCESSO AL MECCANISMO: ESCo E ALTRI SOGGETTI ABILITATI",
+          "contenuto": "Modalit\u00e0 di accesso tramite ESCo, CER, PPP e altri soggetti.",
+          "pagina": 12,
+          "tags": []
+        },
+        {
+          "titolo": "DIAGNOSI ENERGETICA",
+          "contenuto": "Requisiti e novit\u00e0 per le Diagnosi Energetiche, Contributo anticipato per la redazione della DE.",
+          "pagina": 13,
+          "tags": []
+        },
+        {
+          "titolo": "DIAGNOSI ENERGETICA: OBBLIGATORIET\u00c0 E CORRISPETTIVI",
+          "contenuto": "Quando \u00e8 obbligatoria, massimali di spesa e copertura delle spese per PA e Privati.",
+          "pagina": 14,
+          "tags": []
+        },
+        {
+          "titolo": "CONTRIBUTO ANTICIPATO PER LA DIAGNOSI ENERGETICA",
+          "contenuto": "Modalit\u00e0 di accesso e requisiti per il contributo anticipato per PA e ETS non economici.",
+          "pagina": 15,
+          "tags": []
+        },
+        {
+          "titolo": "INTERVENTI INCENTIVABILI",
+          "contenuto": "Quantificazione degli incentivi, Focus interventi del Titolo III.",
+          "pagina": 16,
+          "tags": []
+        },
+        {
+          "titolo": "INTERVENTI INCENTIVABILI DEL TITOLO III",
+          "contenuto": "Massimali e limiti di spesa incentivabili per diversi interventi.",
+          "pagina": 17,
+          "tags": []
+        },
+        {
+          "titolo": "INCENTIVI FINO AL 100% PER COMUNI FINO A 15.000 ABITANTI",
+          "contenuto": "Novit\u00e0 introdotte per interventi realizzati su edifici di propriet\u00e0 di Comuni fino a 15.000 abitanti.",
+          "pagina": 18,
+          "tags": []
+        },
+        {
+          "titolo": "INTERVENTI REALIZZATI SU EDIFICI PUBBLICI",
+          "contenuto": "Incentivi per interventi realizzati su edifici pubblici con destinazione di scuole e ospedali.",
+          "pagina": 19,
+          "tags": []
+        }
+      ],
+      "interventi": [
+        {
+          "codice": "II.A",
+          "descrizione": "Isolamento termico di superfici opache",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "II.B",
+          "descrizione": "Sostituzione di chiusure trasparenti",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "II.D",
+          "descrizione": "Edifici nZEB",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "III.A",
+          "descrizione": "Pompe di calore elettriche o a gas",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "III.B",
+          "descrizione": "Sistemi ibridi factory made o bivalenti",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "III.C",
+          "descrizione": "Caldaie a biomassa",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "III.D",
+          "descrizione": "Scaldacqua a pompa di calore",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "III.F",
+          "descrizione": "Allaccio a sistemi di teleriscaldamento efficiente",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        },
+        {
+          "codice": "III.G",
+          "descrizione": "Microcogenerazione alimentata da fonti rinnovabili",
+          "requisiti": [],
+          "incentivo": {},
+          "zone_climatiche": []
+        }
+      ],
+      "tariffe": [],
+      "requisiti_tecnici": [],
+      "citations": [
+        "D.M. 7 agosto 2025",
+        "D.M. 16 febbraio 2016",
+        "Dlgs 102/14",
+        "Art. 48-ter del DL 104-2020"
+      ]
+    },
+    {
+      "source": "guida_ct_pubblica_amministrazione.pdf",
+      "tipo": "guida",
+      "data_documento": "2016-02-16",
+      "versione": "CT 2.0",
+      "sezioni": [
+        {
+          "titolo": "La Pubblica Amministrazione ha a disposizione 200 milioni di euro l\u2019anno di incentivi per interventi di efficienza energetica e produzione di energia termica da fonti rinnovabili negli edifici pubblici.",
+          "contenuto": "Accedervi consente di recuperare buona parte dei costi di investimento sostenuti per gli interventi, ridurre la spesa corrente per i consumi energetici e diminuire l\u2019impatto ambientale.\nIl meccanismo che eroga gli incentivi \u00e8 il Conto Termico ed \u00e8 gestito dal GSE.",
+          "pagina": 2,
+          "tags": []
+        },
+        {
+          "titolo": "CHI PU\u00d2 RICHIEDERE GLI INCENTIVI",
+          "contenuto": "Tutti gli enti pubblici possono richiedere il Conto Termico, per riqualificare edifici dei quali siano proprietari o titolare utilizzatori. L\u2019incentivo \u00e8 erogato a chi sostiene le spese degli interventi. Le PA possono stipulare un contratto di prestazione energetica (EPC) con una ESCo. La ESCo titolare del contratto pu\u00f2 accedere al Conto Termico per conto dell\u2019ente e utilizzare gli incentivi per realizzare gli interventi di efficienza indicati nel contratto.",
+          "pagina": 2,
+          "tags": []
+        },
+        {
+          "titolo": "INTERVENTI AMMISSIBILI",
+          "contenuto": "Il Conto Termico finanzia fino al 65% delle spese sostenute per gli interventi di riqualificazione dell\u2019involucro e degli impianti degli edifici finalizzati all\u2019incremento dell\u2019efficienza energetica e alla produzione di energia termica da fonti rinnovabili.\nPer scuole e strutture sanitarie l\u2019incentivo pu\u00f2 arrivare fino al 100% dei costi sostenuti per l\u2019efficienza, con un contributo fino a un massimo di 575 euro al metro quadro. Ad esempio:\n- miglioramento dell\u2019isolamento termico dell\u2019involucro edilizio\n- sostituzione di infissi e pannelli vetrati di alta qualit\u00e0 e introduzione di schermature\n- sostituzione dei sistemi per l\u2019illuminazione\n- sostituzione dei sistemi per la climatizzazione con tecnologie ad alta efficienza\n- produzione di energia termica da fonti rinnovabili\n- introduzione di sistemi avanzati di controllo, gestione dell\u2019illuminazione, della ventilazione, del condizionamento, etc.\n- trasformazione degli edifici in nZEB (consentita anche la demolizione e ricostruzione dell\u2019immobile)\nA valle della realizzazione degli interventi, il meccanismo copre il 100% dei costi della diagnosi energetica e dell\u2019attestato di prestazione energetica (APE) effettuati, dove richiesto dalla procedura, sugli edifici di propriet\u00e0 pubblica.\nSul MEPA, la piattaforma di acquisto per la Pubblica Amministrazione gestita da CONSIP, sono disponibili Capitolati Speciali Conto Termico per l\u2019acquisto di pompe di calore, lampade a LED, infissi, schermature solari e altri impianti con i requisiti di accesso al Conto Termico. Una volta richiesta la fornitura attraverso il MEPA, occorre comunque presentare richiesta di incentivo al GSE.",
+          "pagina": 2,
+          "tags": []
+        },
+        {
+          "titolo": "CUMULABILIT\u00c0 DEL CONTO TERMICO",
+          "contenuto": "\u00c8 possibile che interventi nati per finalit\u00e0 diverse dall\u2019efficienza energetica, come opere di adeguamento alla normativa tecnica di settore, implichino la dimensione dell\u2019efficienza.\nSe nella fase di progettazione si sceglie di realizzare gli interventi con determinati parametri tecnici, l\u2019efficienza si pu\u00f2 trasformare da un costo aggiuntivo a una leva che consente di attingere agli incentivi nazionali.\nIn presenza di interventi di riqualificazione energetica, \u00e8 previsto il cumulo tra linee di finanziamento destinate a obiettivi diversi, come adeguamento sismico e antincendio, con lo strumento del Conto Termico.\nIl meccanismo del Conto Termico \u00e8 cumulabile con qualsiasi altra forma di finanziamento, se non stabilito diversamente dagli altri contributi, a patto che la loro somma non superi il 100 % del costo totale degli interventi.\nPer esempio, si pu\u00f2 sommare, fino al raggiungimento del 100% delle spese, ai seguenti finanziamenti:\nPor Fesr Asse IV / Programmazione triennale per l\u2019edilizia scolastica / Comma 140 per l\u2019edilizia scolastica / Fondo Kyoto / Fondo per l\u2019Efficienza Energetica / Fondi della Protezione Civile",
+          "pagina": 2,
+          "tags": []
+        },
+        {
+          "titolo": "COME ACCEDERE AGLI INCENTIVI",
+          "contenuto": "La richiesta di incentivo in Conto Termico pu\u00f2 essere presentata sia a intervento concluso, in modalit\u00e0 di \u201caccesso diretto\u201d, sia prenotando l\u2019incentivo a intervento in corso o ancor prima di avere iniziato i lavori, attraverso la modalit\u00e0 \u201ca prenotazione\u201d.\nLa richiesta deve essere presentata al GSE attraverso il portale web dedicato - il Portaltermico - accessibile attraverso l\u2019Area Clienti del sito www.gse.it.",
+          "pagina": 3,
+          "tags": []
+        },
+        {
+          "titolo": "1 ACCESSO DIRETTO",
+          "contenuto": "A interventi completati, la richiesta deve essere presentata entro 60 giorni dalla fine dei lavori e l\u2019incentivo, a prescindere dall\u2019importo, viene erogato in un\u2019unica soluzione entro 3 mesi dalla sottoscrizione del contratto con il GSE. Tramite il mandato irrevocabile all\u2019incasso, \u00e8 possibile trasferire l\u2019incentivo direttamente al proprio fornitore.\nLa documentazione da presentare varia per tipologia di intervento, ma include sempre:\n- fatture e bonifici (e/o mandati di pagamento) relativi ai pagamenti effettuati\n- documentazione fotografica ante e post operam\n- asseverazione del tecnico abilitato attestante la data di fine lavori, che pu\u00f2 essere compresa nell\u2019ambito di quella obbligatoria resa dal direttore dei lavori sulla conformit\u00e0 delle opere realizzate al progetto\n- documentazione tecnica in base alla tipologia di intervento, che pu\u00f2 includere:\n- diagnosi energetica ante operam\n- relazione tecnica descrittiva dell\u2019intervento effettuato\n- certificazione/attestazione di conformit\u00e0 dei prodotti utilizzati ai requisiti tecnici previsti dal decreto Conto Termico\n- attestato di Prestazione Energetica (APE) post operam\nNel caso di coinvolgimento di una ESCo, occorre aggiungere il contratto di prestazione energetica stipulato con l\u2019ente pubblico per conto del quale sono realizzati gli interventi e l\u2019autocertificazione UNI CEI 11352.\nL\u2019ente pubblico pu\u00f2 delegare la ESCo a presentare la domanda e ad agire per proprio conto nei confronti del GSE.",
+          "pagina": 3,
+          "tags": []
+        },
+        {
+          "titolo": "2 ACCESSO A PRENOTAZIONE",
+          "contenuto": "Per \u201cprenotare l\u2019incentivo\u201d prima dell\u2019avvio dei lavori o a lavori gi\u00e0 in corso, un ente pubblico ha 3 diverse opzioni, a seconda dello stato di avanzamento degli interventi e della documentazione disponibile:\nPrenotazione A con diagnosi e \u201catto formale di impegno\u201d: Scegliendo questa opzione, per richiedere la prenotazione dell\u2019incentivo \u00e8 sufficiente presentare: - una diagnosi energetica predisposta nelle modalit\u00e0 previste dal D. lgs. 102/2014 - un provvedimento o altro atto amministrativo attestante l\u2019impegno all\u2019esecuzione di almeno uno degli interventi previsti dalla diagnosi energetica e per i quali si richiede l\u2019incentivo\nPrenotazione B con contratto di prestazione energetica: Scegliendo questa opzione, per richiedere la prenotazione dell\u2019incentivo \u00e8 sufficiente presentare, oltre alla diagnosi energetica se prevista, il contratto di prestazione energetica o di gestione dei servizi energetici stipulato con una ESCo: - che rispetti i requisiti minimi previsti dal D. lgs. 102/2014 - nell\u2019ambito della convenzione con Consip, con la centrale di acquisti regionale o altro",
+          "pagina": 3,
+          "tags": []
+        },
+        {
+          "titolo": "soggetto aggregatore inserito nell\u2019elenco di ANAC ai sensi del decreto del Presidente del Consiglio dei Ministri 11/11/2014",
+          "contenuto": "- mediante specifica gara effettuata dalla PA appaltante per l\u2019affidamento del servizio di gestione o fornitura dell\u2019energia integrato con la riqualificazione energetica dei sistemi interessati\nPrenotazione C all\u2019assegnazione dei lavori: Scegliendo questa opzione, per richiedere la prenotazione dell\u2019incentivo \u00e8 sufficiente presentare, oltre alla diagnosi energetica se prevista: - atto amministrativo attestante l\u2019avvenuta assegnazione dei lavori - verbale di consegna dei lavori redatto dal direttore dei lavori",
+          "pagina": 4,
+          "tags": []
+        },
+        {
+          "titolo": "FASI DELL\u2019ISTRUTTORIA NEI TRE CASI DELLA PRENOTAZIONE",
+          "contenuto": "A valle di una valutazione positiva del GSE, in tutti e tre i casi, l\u2019incentivo viene erogato con un acconto all\u2019avvio dei lavori pari al 40% o al 50% del totale del contributo spettante, a seconda della tipologia e della dimensione dell\u2019intervento, e un saldo a fine lavori.\nL\u2019accettazione della prenotazione (API) da parte del GSE, che avviene entro 60 giorni dalla presentazione della richiesta, costituisce un atto formale che attesta la copertura finanziaria in quanto impegna ufficialmente il valore massimo dell\u2019incentivo erogabile.\nNell\u2019ambito della realizzazione degli interventi, prendendo come riferimento la data di accettazione della prenotazione, \u00e8 necessario rispettare le seguenti tempistiche:\nPer finalizzare l\u2019istruttoria a prenotazione, \u00e8 necessario trasformarla in accesso diretto. Una volta conclusi i lavori, sul Portaltermico, occorre cliccare sul tasto \u201ccompleta prenotazione\u201d, caricare la documentazione e confermare. Il perfezionamento della richiesta avviene successivamente in accesso diretto, mantenendo lo stesso codice identificativo della pratica a prenotazione.\nLa richiesta di accesso diretto va presentata tassativamente entro 60 giorni dalla data di fine lavori.\nIl rispetto delle date \u00e8 accertato sulla base delle date di trasmissione delle dichiarazioni sostitutive di atto di notoriet\u00e0 inviate attestanti l\u2019assegnazione, l\u2019avvio e la conclusione dei lavori.",
+          "pagina": 4,
+          "tags": []
+        },
+        {
+          "titolo": "INTERVENTI E COSTI MASSIMI AMMISSIBILI",
+          "contenuto": "Tipologia intervento Costo unitario ammissibile Percentuale spesa riconoscibile e incentivo massimo erogabile",
+          "pagina": 5,
+          "tags": []
+        },
+        {
+          "titolo": "ESEMPI DI PROGETTI",
+          "contenuto": "CALCOLO DELL\u2019INCENTIVO SU TRE INTERVENTI NZEB",
+          "pagina": 6,
+          "tags": []
+        },
+        {
+          "titolo": "PER APPROFONDIRE",
+          "contenuto": "Ulteriori informazioni sono disponibili sul sito www.gse.it, dal quale \u00e8 possibile scaricare anche il DM 16 febbraio 2016, che regola il Conto Termico.\nLe Regole Applicative, suddivise per profilo utente e per classi di intervento, dettagliano i requisiti di ammissibilit\u00e0 degli interventi, la documentazione per la richiesta dell\u2019incentivo e la modulistica per adempimenti quali il mandato irrevocabile all\u2019incasso e il resto della normativa di riferimento.\nIl GSE \u00e8 la Societ\u00e0 Pubblica che in Italia promuove la sostenibilit\u00e0 ambientale, d\u00e0 sostegno alle fonti rinnovabili e all\u2019efficienza energetica.\n\u00c8 al fianco della PA, delle imprese e delle famiglie nel loro cammino verso lo sviluppo sostenibile, \u00e8 un ponte verso le future generazioni.\nIn arrivo il nuovo decreto Conto Termico\nSegui il nostro programma di formazione GSE In-Forma PA",
+          "pagina": 7,
+          "tags": []
+        }
+      ],
+      "interventi": [
+        {
+          "codice": "1.A",
+          "descrizione": "Isolamento termico di superfici opache pareti: perimetrali, pavimenti o coperture",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "Tra 80 \u20ac/mq e 250 \u20ac/mq",
+            "percentuale_spesa_riconoscibile": "40% (*)(**)",
+            "incentivo_massimo_erogabile": "400.000 \u20ac"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.B",
+          "descrizione": "Sostituzione di infissi",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "350 \u20ac/mq (zone A, B, C)\n450 \u20ac/mq (zone D, E, F)",
+            "percentuale_spesa_riconoscibile": "40% (**)",
+            "incentivo_massimo_erogabile": "75.000 \u20ac o 100.000 \u20ac in relazione alla zona climatica"
+          },
+          "zone_climatiche": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "codice": "1.C",
+          "descrizione": "Sostituzione di impianti di climatizzazione invernale con generatori di calore a condensazione",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "160 \u20ac/kW (P<= 35 kW)\n130 \u20ac/kW (P>35 kW)",
+            "percentuale_spesa_riconoscibile": "40% (**)",
+            "incentivo_massimo_erogabile": "3.000 \u20ac o 40.000 \u20ac in relazione alla potenza impianto"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.D",
+          "descrizione": "Installazione di sistemi di schermatura e/o ombreggiamento",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "150 \u20ac/mq (schermature)\n30 \u20ac/mq (sistemi controllo)",
+            "percentuale_spesa_riconoscibile": "40%",
+            "incentivo_massimo_erogabile": "5.000 \u20ac o 30.000 \u20ac a seconda della tipologia di intervento"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.E",
+          "descrizione": "Trasformazione degli edifici in nZEB",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "500 \u20ac/mq (zone A, B, C)\n575 \u20ac/mq (zone D, E, F)",
+            "percentuale_spesa_riconoscibile": "65%",
+            "incentivo_massimo_erogabile": "1.500.000 \u20ac o 1.750.000 \u20ac in relazione alla zona climatica"
+          },
+          "zone_climatiche": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "codice": "1.F",
+          "descrizione": "Sostituzione di sistemi per l\u2019illuminazione di interni e delle pertinenze esterne con sistemi efficienti di illuminazione",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "15 \u20ac/mq (lampade alta efficienza)\n35 \u20ac/mq (lampade a led)",
+            "percentuale_spesa_riconoscibile": "40%",
+            "incentivo_massimo_erogabile": "30.000 \u20ac o 70.000 \u20ac in relazione al tipo di lampada"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "1.G",
+          "descrizione": "Installazione di tecnologie di building automation degli impianti termici ed elettrici degli edifici",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "25 \u20ac/mq",
+            "percentuale_spesa_riconoscibile": "40%",
+            "incentivo_massimo_erogabile": "50.000 \u20ac"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.A",
+          "descrizione": "Sostituzione di impianti di climatizzazione con impianti a pompa di calore fino a 2.000 kW",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "Il massimale \u00e8 determinato sulla base della producibilit\u00e0 stimata",
+            "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+            "incentivo_massimo_erogabile": null
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.B",
+          "descrizione": "Sostituzione di impianti di climatizzazione con generatori a biomassa fino a 2.000 kW",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "Il massimale \u00e8 determinato sulla base della producibilit\u00e0 stimata e di coefficienti premianti",
+            "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+            "incentivo_massimo_erogabile": null
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.C",
+          "descrizione": "Installazione di collettori solari termici fino a 2.500 mq",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "Il massimale \u00e8 determinato sulla base della producibilit\u00e0 stimata",
+            "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+            "incentivo_massimo_erogabile": null
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.D",
+          "descrizione": "Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "40% della spesa sostenuta",
+            "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+            "incentivo_massimo_erogabile": null
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.E",
+          "descrizione": "Sostituzione di impianti di climatizzazione con nuovi sistemi ibridi (caldaie a condensazione + pompa di calore)",
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "Il massimale \u00e8 determinato sulla base della producibilit\u00e0 stimata",
+            "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+            "incentivo_massimo_erogabile": null
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "Diagnosi energetica + APE",
+          "descrizione": null,
+          "requisiti": [],
+          "incentivo": {
+            "costo_unitario_ammisibile": "Tra 1 \u20ac/mq e 3,5 \u20ac/mq",
+            "percentuale_spesa_riconoscibile": "100% - ERP 5.000 \u20ac - Ospedali e Case di cura 18.000 \u20ac - Altri edifici 13.000 \u20ac 50% - Cooperative sociali e di abitanti",
+            "incentivo_massimo_erogabile": null
+          },
+          "zone_climatiche": []
+        }
+      ],
+      "tariffe": [],
+      "requisiti_tecnici": [],
+      "citations": []
+    },
+    {
+      "source": "mappa_ct_imprese_privati.pdf",
+      "tipo": "guida",
+      "data_documento": "2025-01-01",
+      "versione": "CT 2.0",
+      "sezioni": [
+        {
+          "titolo": "IL MECCANISMO DI INCENTIVO",
+          "contenuto": "Il Conto Termico incentiva interventi per l'incremento dell'efficienza energetica e la produzione di energia termica da fonti rinnovabili negli edifici.",
+          "pagina": 4,
+          "tags": [
+            "incentivo",
+            "efficienza energetica",
+            "fonti rinnovabili"
+          ]
+        },
+        {
+          "titolo": "DECRETO E REGOLE APPLICATIVE",
+          "contenuto": "Fai sempre riferimento al DM 16 febbraio 2016 e alle Regole Applicative del Conto Termico.",
+          "pagina": 4,
+          "tags": [
+            "DM 16 febbraio 2016",
+            "Regole Applicative"
+          ]
+        },
+        {
+          "titolo": "COME ACCEDERE",
+          "contenuto": "Per presentare istanza di incentivo occorre essere registrati all'Area Clienti del GSE e sottoscrivere l'applicazione Portaltermico.",
+          "pagina": 5,
+          "tags": [
+            "Area Clienti GSE",
+            "Portaltermico"
+          ]
+        },
+        {
+          "titolo": "INTERVENTI INCENTIVABILI",
+          "contenuto": "I soggetti privati possono richiedere gli incentivi in Conto Termico per diversi interventi.",
+          "pagina": 6,
+          "tags": [
+            "interventi",
+            "incentivi",
+            "Conto Termico"
+          ]
+        },
+        {
+          "titolo": "DIAGNOSI ENERGETICA E APE",
+          "contenuto": "Le spese sostenute per la diagnosi e la certificazione energetica degli interventi che le prevedono obbligatoriamente sono incentivate.",
+          "pagina": 6,
+          "tags": [
+            "diagnosi energetica",
+            "APE",
+            "incentivi"
+          ]
+        },
+        {
+          "titolo": "CUMULABILIT\u00c0",
+          "contenuto": "Gli incentivi in Conto Termico sono riconosciuti esclusivamente agli interventi per la cui realizzazione non siano concessi altri incentivi statali.",
+          "pagina": 7,
+          "tags": [
+            "cumulabilit\u00e0",
+            "incentivi",
+            "Conto Termico"
+          ]
+        },
+        {
+          "titolo": "COME PRESENTARE LA RICHIESTA DI INCENTIVO",
+          "contenuto": "Per presentare istanza di incentivo occorre seguire una procedura in pochi step.",
+          "pagina": 8,
+          "tags": [
+            "richiesta incentivo",
+            "procedura"
+          ]
+        },
+        {
+          "titolo": "INDIVIDUARE SOGGETTO REPONSABILE, AMMESSO E DELEGATO",
+          "contenuto": "La prima cosa da fare \u00e8 capire come si classificano i soggetti coinvolti nella realizzazione dell'intervento ai fini della richiesta di incentivo.",
+          "pagina": 8,
+          "tags": [
+            "Soggetto Responsabile",
+            "Soggetto Ammesso",
+            "Soggetto Delegato"
+          ]
+        },
+        {
+          "titolo": "LA ESCO COME SOGGETTO RESPONSABILE",
+          "contenuto": "Quando la ESCo si configura come Soggetto Responsabile per un intervento di altro Soggetto Ammesso, la ESCo gode delle stesse prerogative di quest'ultimo.",
+          "pagina": 9,
+          "tags": [
+            "ESCO",
+            "Soggetto Responsabile",
+            "Soggetto Ammesso"
+          ]
+        }
+      ],
+      "interventi": [
+        {
+          "codice": "2.A",
+          "descrizione": "Sostituzione di impianti di climatizzazione con impianti a pompa di calore fino a 2.000 kW",
+          "requisiti": [],
+          "incentivo": {
+            "percentuale": "Massimo 65%",
+            "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.B",
+          "descrizione": "Sostituzione di impianti di climatizzazione con generatori a biomassa fino a 2.000 kW",
+          "requisiti": [],
+          "incentivo": {
+            "percentuale": "Massimo 65%",
+            "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.C",
+          "descrizione": "Installazione di collettori solari termici fino a 2.500 mq",
+          "requisiti": [],
+          "incentivo": {
+            "percentuale": "Massimo 65%",
+            "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.D",
+          "descrizione": "Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+          "requisiti": [],
+          "incentivo": {
+            "percentuale": "Massimo 65%",
+            "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+          },
+          "zone_climatiche": []
+        },
+        {
+          "codice": "2.E",
+          "descrizione": "Sostituzione di impianti di climatizzazione con nuovi sistemi ibridi (caldaie a condensazione + pompa di calore)",
+          "requisiti": [],
+          "incentivo": {
+            "percentuale": "Massimo 65%",
+            "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+          },
+          "zone_climatiche": []
+        }
+      ],
+      "tariffe": [],
+      "requisiti_tecnici": [],
+      "citations": [
+        "DM 16 febbraio 2016",
+        "DPR 26 agosto 1993, n.412",
+        "Decreto legislativo n. 102/2014",
+        "Decreto legislativo 19 agosto 2005, n. 192",
+        "D.Lgs. 115/2008",
+        "D.Lgs. 102/2014",
+        "UNI CEI 11352",
+        "UNI CEI EN 16247"
+      ]
+    },
+    {
+      "source": "pompe_di_calore_regole_applicative.pdf",
+      "tipo": "regole_applicative",
+      "data_documento": "2016-02-16",
+      "versione": "CT 2.0",
+      "sezioni": [
+        {
+          "titolo": "5.8 Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW (intervento 2.A - art. 4, comma 2, lettera a)",
+          "contenuto": "L\u2019intervento incentivabile consiste nella sostituzione di impianti di climatizzazione invernale esistenti in edifici esistenti, parti di edifici esistenti o unit\u00e0 immobiliari esistenti di qualsiasi categoria catastale, con impianti di climatizzazione invernale di potenza massima inferiore o uguale a 2.000 kW21 dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica.",
+          "pagina": 1,
+          "tags": []
+        },
+        {
+          "titolo": "5.8.1 Soggetti che possono richiedere l\u2019incentivo",
+          "contenuto": "Le Amministrazioni Pubbliche e i Soggetti privati, direttamente o indirettamente tramite una ESCo. Nel primo caso il Soggetto Responsabile dell\u2019intervento \u00e8 l\u2019Amministrazione Pubblica o il soggetto privato, mentre nel secondo caso il Soggetto Responsabile \u00e8 la ESCo.",
+          "pagina": 1,
+          "tags": []
+        },
+        {
+          "titolo": "5.8.2 Requisiti tecnici per accedere all\u2019incentivo (Allegato II del Decreto)",
+          "contenuto": "Di seguito sono riportati i requisiti minimi richiesti per l\u2019accesso all\u2019incentivo:\ni. l\u2019installazione deve sostituire parzialmente o integralmente l\u2019impianto di climatizzazione invernale gi\u00e0 presente nell\u2019immobile di qualsiasi categoria catastale (tranne F). La sostituzione parziale \u00e8 ammessa solo nel caso di un impianto pre-esistente dotato di pi\u00f9 generatori di calore;\nii. la messa a punto e l\u2019equilibratura del sistema di distribuzione, regolazione e controllo;\niii. l\u2019installazione su tutti i corpi scaldanti di elementi di regolazione di tipo modulante agente sulla portata, tipo valvole termostatiche a bassa inerzia termica, a esclusione:\na. dei locali in cui l\u2019installazione di valvole termostatiche o altra regolazione di tipo modulante agente sulla portata sia dimostrata inequivocabilmente non fattibile tecnicamente nel caso specifico (cfr. Decreto 26 giugno 2015, concernente le metodologie di calcolo della prestazione energetica e la definizione delle prescrizioni e dei requisiti minimi degli edifici);\nb. dei locali in cui \u00e8 installata una centralina di termoregolazione con dispositivi modulanti per la regolazione automatica della temperatura ambiente (cfr. Decreto 26 giugno 2015, concernente le metodologie di calcolo della prestazione energetica e la definizione delle prescrizioni e dei requisiti minimi degli edifici). In caso di impianti al servizio di pi\u00f9 locali, \u00e8 possibile omettere l\u2019installazione di elementi di regolazione di tipo modulante agenti sulla portata esclusivamente sui terminali di emissione situati all\u2019interno dei locali in cui \u00e8 presente una centralina di termoregolazione, anche se questa agisce, oltre che sui terminali di quel locale, anche sui terminali di emissione installati in altri locali;\nc. degli impianti di climatizzazione invernale progettati e realizzati con temperature medie del fluido termovettore inferiori a 45\u00b0C;\niv. l\u2019installazione di efficaci sistemi di contabilizzazione individuale dell\u2019energia termica utilizzata, nel caso di impianti centralizzati a servizio di molteplici unit\u00e0 immobiliari e/o edifici;\nv. per gli interventi con potenza termica utile superiore a 200 kW, \u00e8 obbligatoria l\u2019installazione di sistemi di contabilizzazione del calore e la comunicazione al GSE delle misure dell\u2019energia termica annualmente prodotta dagli impianti e utilizzata per coprire i fabbisogni termici, secondo quanto indicato al paragrafo 6.5.\nvi. le pompe di calore elettriche devono avere un coefficiente di prestazione COP almeno pari ai valori riportati nella successiva tabella 3 del Decreto; la misura del COP deve essere dichiarata e garantita dal costruttore della pompa di calore sulla base di prove effettuate in conformit\u00e0 alla UNI EN 14511. Al momento della prova, la pompa di calore deve funzionare a pieno regime per le tipologie di pompa e condizioni di scambio termico (fluidi termovettori e temperature) ein tabella 3 del Decreto.\nvii. le pompe di calore a gas devono avere il coefficiente di prestazione GUE almeno pari ai valori riportati nella successiva tabella 4 del Decreto;\nviii. la misura di GUE deve essere dichiarata e garantita dal costruttore della pompa di calore sulla base di prove effettuate in conformit\u00e0 alle seguenti norme, restando fermo che la misura deve essere effettuata nelle condizioni di funzionamento a pieno regime per le tipologie di pompa e condizioni di scambio termico (fluidi termovettori e temperature) fissate nella tabella 4 del Decreto:\na. UNI EN 12309-2 per le pompe di calore a gas ad assorbimento (riferendo i valori di prova al potere calorifico inferiore p.c.i)\nb. UNI EN 14511:2011 per le pompe di calore a gas a motore endotermico (poich\u00e9 per le pompe di calore a gas endotermiche non esiste una norma specifica, si procede in base alla EN 14511, utilizzando il rapporto di trasformazione primario - elettrico = 0,46)\nix. le emissioni in atmosfera degli ossidi di azoto NOx (espressi come NO ), dovute al sistema di combustione, devono essere calcolati in conformit\u00e0 alla vigente normativa europea e devono essere inferiori a 120 mg/kWh per le pompe di calore a gas ad assorbimento e inferiori a 240 mg/kWh per le pompe di calore a gas con motore a combustione interna. Tali valori sono riferiti all\u2019energia termica prodotta.\nx. nel caso di pompe di calore elettriche o a gas dotate di variatore di velocit\u00e0 (inverter o altra tipologia), i pertinenti valori del COP e del GUE previsti dalle tabelle 3 e 4 del Decreto devono essere ridotti del 5%;\nPer gli interventi realizzati in interi edifici con impianto di riscaldamento di potenza nominale totale (da intendersi potenza nominale totale utile) maggiore o uguali a 200 kW, ai fini della richiesta di incentivo la diagnosi energetica ante-operm e APE post-operam sono obbligatorie, a pena di decadenza, per il riconoscimento degli incentivi.",
+          "pagina": 1,
+          "tags": []
+        },
+        {
+          "titolo": "5.8.3 Spese ammissibili ai fini del calcolo dell\u2019incentivazione (art. 5)",
+          "contenuto": "L\u2019incentivo per la sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernali dotati di pompe di calore elettriche e a gas \u00e8 stabilito sulla potenzialit\u00e0 dell\u2019intervento ed \u00e8 calcolato in funzione dell\u2019energia termica prodotta in un anno. Il riconoscimento delle spese accessorie \u00e8 incluso nei coefficienti di valorizzazione dell\u2019energia termica prodotta (C).\nLe spese accessorie, comprensive di IVA dove essa costituisce un costo, comprendono: smontaggio e dismissione dell\u2019impianto di climatizzazione invernale esistente, parziale o totale, fornitura, trasporto e posa in opera di tutte le apparecchiature termiche, meccaniche, elettriche ed elettroniche; le opere idrauliche e murarie necessarie alla sostituzione a regola dell\u2019arte di impianti di climatizzazione invernale unitamente, se del caso, a quelli di produzione di acqua calda sanitaria; i sistemi di contabilizzazione individuale; eventuali interventi sulla rete di distribuzione, sui sistemi di trattamento delle acque, sui dispositivi di controllo e regolazione, sui sistemi di estrazione e alimentazione dei combustibili, sui sistemi di emissione; opere e sistemi di captazione per le pompe di calore geotermiche; prestazioni professionali connesse alla realizzazione dell\u2019intervento.",
+          "pagina": 3,
+          "tags": []
+        },
+        {
+          "titolo": "5.8.4 Calcolo dell\u2019incentivo (Allegato II \u2013 2.1 del Decreto)",
+          "contenuto": "Pompe di calore elettriche\nPer gli interventi di sostituzione di impianti di climatizzazione invernali esistenti con impianti per la climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore elettriche, l\u2019incentivo annuo \u00e8 definito in funzione dell\u2019energia termica prodotta annualmente (definita in funzione del COP, della potenza termica nominale del generatore e di coefficienti di utilizzo dipendenti dalle zone climatiche) e di specifici coefficienti di valorizzazione dell\u2019energia (\u20ac/kWh) tabellati.\nI = E \u00b7 C\na tot i i\ncon:\nI : incentivo annuo (rata annua) in euro\na tot\nL\u2019incentivo totale (I ), \u00e8 costituito dalla sommatoria delle rate annue previste nella tabella A del Decreto;\ntot\n- 2 annualit\u00e0 per generatori con potenza termica utile nominale \u2264 35 kW;\n- 5 annualit\u00e0 per generatori con potenza termica utile nominale per generatori > 35 kW.\nL\u2019incentivo totale (I ), sar\u00e0 corrisposto in un\u2019unica soluzione per gli aventi diritto (le PA e le ESCo che operano per\ntot\nloro conto, ad esclusione delle Cooperative di abitanti e delle Cooperative sociali).\nC: coefficiente di valorizzazione dell\u2019energia termica prodotta definito nella seguente tabella 7 del Decreto:\ni\nE: energia termica incentivata prodotta in un anno, espressa in kWh e calcolata con la seguente relazione:\ni t\nE = Q \u00b7 [1-1/(COP)]\ni u\nDove:\nCOP: coefficiente di prestazione della pompa di calore installata, come dedotto dai dati forniti dal produttore, nel rispetto dei requisiti minimi espressi dalla tabella 3 del Decreto.\nLa misura del valore del COP, che concorre al calcolo dell\u2019incentivo, deve essere dichiarata e garantita dal costruttore, sulla base di prove effettuate in conformit\u00e0 alla norma UNI EN 14511:2011, alle condizioni di valutazione normalizzate, cos\u00ec come definite nella norma stessa.\nQ : calore totale prodotto dall\u2019impianto, espresso in kWh e calcolato come segue con la seguente relazione:\nu t\nQ = P \u00b7 Q\nu n uf\nCon\nP : potenza termica nominale della pompa di calore installata\nn\nQ : coefficiente di utilizzo della pompa di calore dipendente dalla zona climatica come riportato nella tabella 6 del\nuf\nDecreto.\nPompe di calore a gas\nNel caso di installazione di pompe di calore a gas, l\u2019incentivo annuo \u00e8 definito in funzione dell\u2019energia termica prodotta annualmente (definita in funzione del GUE, della potenza termica nominale del generatore e di coefficienti di utilizzo dipendenti dalle zone climatiche) e di specifici coefficienti di valorizzazione dell\u2019energia (\u20ac/kWh) tabellati.\nL\u2019incentivo annuo si calcola con la seguente formula:\nI = E \u00b7 C\na tot i i\ncon:\nI : incentivo annuo (rata annua) in euro\na tot\nL\u2019incentivo totale (I ), \u00e8 costituito dalla sommatoria delle rate annue previste nella tabella A del Decreto;\ntot\n- 2 per generatori con potenza termica utile nominale \u2264 35 kW;\n- 5 per generatori con potenza termica utile nominale per generatori > 35 kW\nL\u2019incentivo totale (I ) sar\u00e0 corrisposto in un\u2019unica soluzione per gli aventi diritto (le PA e le ESCo che operano per\ntot\nloro conto, ad esclusione delle Cooperative di abitanti e delle Cooperative sociali).\nC= coefficiente di valorizzazione dell\u2019energia termica prodotta definito nella seguente tabella 8 del Decreto\ni\nE= energia termica incentivata prodotta in un anno, espressa in kWh e calcolata con la seguente relazione:\ni t\nE = Q \u00b7 [1-1/(GUE/0,46)]\ni u\ndove:\nGUE = coefficiente di prestazione della pompa di calore installata, come dedotto dai dati forniti dal produttore, nel rispetto dei requisiti minimi espressi dalla tabella 4 del Decreto.\nSi precisa che la misura del valore del GUE che concorre al calcolo dell\u2019incentivo deve essere dichiarata e garantita dal costruttore per le pompe di calore ad assorbimento sulla base di prove effettuate in conformit\u00e0 alla norma UNI EN 12309-2 alle condizioni espresse nella tabella 4 del Decreto e per le pompe di calore a gas a motore endotermico sulla base di prove effettuate in conformit\u00e0 alla norma UNI EN 14511:2011 alle condizioni normalizzate (utilizzando il rapporto di trasformazione primario - elettrico = 0,46);\nQ = calore totale prodotto dall\u2019impianto, espresso in kWh e calcolata come segue con la seguente relazione:\nu t\nQ = P \u00b7 Q\nu n uf\nP = potenza termica nominale della pompa di calore installata\nn\nQ = coefficiente di utilizzo della pompa di calore dipendente dalla zona climatica come riportato nella tabella 6 del\nuf\nDecreto.",
+          "pagina": 4,
+          "tags": []
+        },
+        {
+          "titolo": "5.8.5 Documentazione necessaria per l\u2019accesso all\u2019incentivo",
+          "contenuto": "Ai fini della richiesta d\u2019incentivo, il Soggetto Responsabile predispone la documentazione sotto specificata e la conserva in originale per tutta la durata dell\u2019incentivo e per i 5 anni successivi all\u2019erogazione dell\u2019ultima rata. Alcuni documenti devono essere presentati unitamente alla richiesta di accesso all\u2019incentivo (in formato PDF), caricandoli sul Portaltermico all\u2019atto della presentazione della richiesta medesima; altri devono essere conservati a cura del Soggetto Responsabile. Il GSE potr\u00e0 richiedere copia di tutti i documenti in qualsiasi momento e la stessa documentazione dovr\u00e0 essere mostrata in originale in caso di verifica in situ.\nDocumentazione da allegare alla richiesta di accesso all\u2019incentivo:\n1. documentazione comune a tutte le tipologie di interventi, come specificatamente indicato nell\u2019Allegato 1;\n2. per gli interventi che prevedono l\u2019installazione di generatori di potenza termica nominale \u2264 35 kW non ricompresi nel Catalogo, l\u2019asseverazione di un tecnico abilitato non \u00e8 obbligatoria; in questo caso \u00e8 sufficiente una certificazione del produttore degli elementi impiegati, che attesti il rispetto dei requisiti minimi previsti dal Decreto e dalle relative Regole Applicative, per interventi con incentivo superiore a 3.500 euro;\n3. per gli interventi che prevedono l\u2019installazione di generatori di potenza termica nominale > 35 kW, l\u2019asseverazione di un tecnico abilitato secondo quanto indicato nel paragrafo 6.2 pi\u00f9 una certificazione del produttore degli elementi impiegati che attesti il rispetto dei requisiti minimi previsti dal Decreto e dalle relative Regole Applicative per interventi con incentivo superiore a 3.500 euro;\n4. nel caso di installazione di un generatore di calore avente potenza termica nominale maggiore o uguale a 100 kW, relazione tecnica di progetto, timbrata e firmata dal progettista, corredata degli schemi funzionali d\u2019impianto (per impianti geotermici anche lo schema di posizionamento delle sonde);\n5. documentazione fotografica attestante l\u2019intervento, raccolta in documento elettronico in formato PDF con un numero minimo di 7 foto riportanti:\n\uf0b7 le targhe dei generatori sostituiti e installati (di ciascuna delle unit\u00e0 che costituiscono i generatori);\n\uf0b7 i generatori sostituiti e installati;\n\uf0b7 la centrale termica, o il locale di installazione, ante-operam (presente il generatore sostituito) e post-operam (presente il generatore installato);\n\uf0b7 le valvole termostatiche o del sistema di regolazione modulante della portata.\nSi precisa, infine che, in caso in cui il generatore sostituito sia della tipologia a pompa di calore \u00e8 necessario inviare la fotografia delle targhe dalle quali si evinca la potenza in riscaldamento. In assenza di tali targhe, in alternativa, si richiede di trasmettere adeguata documentazione tecnica atta a dimostrare la potenza in riscaldamento e che sia un impianto destinato alla climatizzazione invernale.\nDocumentazione da conservare a cura del Soggetto Responsabile\n1) per interventi non a Catalogo e per interventi con incentivi \u2264 3.500 euro certificazione del produttore e scheda tecnica del produttore del generatore di calore che pu\u00f2 essere parte della certificazione del produttore di cui ai precedenti punti 2 e 3, che attestino il rispetto dei requisiti minimi richiesti dal Decreto, e, se di nuova installazione, dei sistemi di termoregolazione o valvole termostatiche;\n2) certificato del corretto smaltimento del generatore di calore sostituito o un documento analogo attestante che il generatore \u00e8 stato consegnato a un apposito centro per lo smaltimento (paragrafo 6.4);\n3) dichiarazione di conformit\u00e0 dell\u2019impianto, ove prevista, ai sensi del DM 37/08;\n4) libretto di centrale/d\u2019impianto, come previsto dalla legislazione vigente;\n5) nel caso di installazione di un generatore di calore avente potenza termica nominale maggiore o uguale a 35 kW e inferiore a 100 kW, relazione tecnica di progetto, timbrata e firmata dal progettista (o altro soggetto avente diritto ai sensi della normativa tecnica vigente), corredata degli schemi funzionali (per impianti geotermici anche lo schema di posizionamento delle sonde);\n6) per impianti geotermici di potenza termica nominale minore di 35 kW, schema di posizionamento delle sonde;\n7) pertinente titolo autorizzativo e/o abilitativo, ove previsto dalla vigente legislazione/normativa nazionale e locale;\n8) nel caso di intervento in edifici sottoposti a ristrutturazioni rilevanti, relazione, redatta da tecnico abilitato, attestante la quota d\u2019obbligo per gli impianti di produzione di energia termica ai sensi dell\u2019art. 11, comma 4, del D.Lgs. 28/11 e, conseguentemente, la quota dell\u2019intervento eccedente l\u2019adempimento dell\u2019obbligo, che accede agli incentivi del Decreto, per richieste il cui titolo edilizio sia presentato tra il 31 maggio 2012 e fino al 13 giugno 2022;\n9) nel caso in cui l\u2019intervento sia realizzato su interi edifici con impianti di riscaldamento di potenza nominale del focolare maggiore o uguale a 200 kW (art. 15, comma 1):\n\uf0b7 attestato di prestazione energetica post-operam (redatto secondo D.Lgs. 192/05 e s.m.i. e disposizioni regionali vigenti, ove presenti);\n\uf0b7 diagnosi energetica precedente l\u2019intervento.",
+          "pagina": 8,
+          "tags": []
+        }
+      ],
+      "interventi": [
+        {
+          "codice": "2.A",
+          "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+          "requisiti": [
+            "Sostituzione parziale o integrale dell'impianto di climatizzazione invernale esistente (tranne categoria catastale F)",
+            "Messa a punto ed equilibratura del sistema di distribuzione, regolazione e controllo",
+            "Installazione di elementi di regolazione di tipo modulante agente sulla portata (valvole termostatiche a bassa inerzia termica) su tutti i corpi scaldanti, con eccezioni specificate",
+            "Installazione di sistemi di contabilizzazione individuale dell'energia termica utilizzata (impianti centralizzati)",
+            "Installazione di sistemi di contabilizzazione del calore e comunicazione al GSE delle misure dell'energia termica (potenza termica utile > 200 kW)",
+            "COP minimo per pompe di calore elettriche (UNI EN 14511)",
+            "GUE minimo per pompe di calore a gas (UNI EN 12309-2 o UNI EN 14511:2011)",
+            "Emissioni NOx inferiori a 120 mg/kWh (pompe di calore a gas ad assorbimento) o 240 mg/kWh (pompe di calore a gas con motore a combustione interna)",
+            "Riduzione del 5% dei valori COP e GUE per pompe di calore con variatore di velocit\u00e0",
+            "Diagnosi energetica ante-operam e APE post-operam (interi edifici con potenza nominale totale >= 200 kW)"
+          ],
+          "incentivo": {},
+          "zone_climatiche": []
+        }
+      ],
+      "tariffe": [],
+      "requisiti_tecnici": [
+        {
+          "tipo": "Pompe di calore elettriche",
+          "requisito": "COP",
+          "condizioni": "Ambiente esterno/interno aria/aria: Bulbo secco all\u2019entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C, Bulbo umido all\u2019entrata: 15\u00b0C",
+          "valore": "3,9"
+        },
+        {
+          "tipo": "Pompe di calore elettriche",
+          "requisito": "COP",
+          "condizioni": "Ambiente esterno/interno aria/acqua potenza termica utile riscaldamento \u2264 35 kW: Bulbo secco all\u2019entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Temperatura entrata: 30\u00b0C, Temperatura uscita: 35\u00b0C",
+          "valore": "4,1"
+        },
+        {
+          "tipo": "Pompe di calore elettriche",
+          "requisito": "COP",
+          "condizioni": "Ambiente esterno/interno aria/acqua potenza termica utile riscaldamento > 35 kW: Bulbo secco all\u2019entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Temperatura entrata: 30\u00b0C, Temperatura uscita: 35\u00b0C",
+          "valore": "3,8"
+        },
+        {
+          "tipo": "Pompe di calore elettriche",
+          "requisito": "COP",
+          "condizioni": "Ambiente esterno/interno salamoia/aria: Temperatura entrata: 0\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C, Bulbo umido all\u2019entrata: 15\u00b0C",
+          "valore": "4,3"
+        },
+        {
+          "tipo": "Pompe di calore elettriche",
+          "requisito": "COP",
+          "condizioni": "Ambiente esterno/interno salamoia/acqua: Temperatura entrata: 0\u00b0C / Temperatura entrata: 30\u00b0C, Temperatura uscita: 35\u00b0C",
+          "valore": "4,3"
+        },
+        {
+          "tipo": "Pompe di calore elettriche",
+          "requisito": "COP",
+          "condizioni": "Ambiente esterno/interno acqua/aria: Temperatura entrata: 10\u00b0C, Temperatura uscita: 7\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C, Bulbo umido entrata: 15\u00b0C",
+          "valore": "4,7"
+        },
+        {
+          "tipo": "Pompe di calore elettriche",
+          "requisito": "COP",
+          "condizioni": "Ambiente esterno/interno acqua/acqua: Temperatura entrata: 10\u00b0C / Temperatura entrata: 30\u00b0C, Temperatura uscita: 35\u00b0C",
+          "valore": "5,1"
+        },
+        {
+          "tipo": "Pompe di calore a gas",
+          "requisito": "GUE",
+          "condizioni": "Ambiente esterno/interno aria/aria: Bulbo secco all\u2019 entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C",
+          "valore": "1,46"
+        },
+        {
+          "tipo": "Pompe di calore a gas",
+          "requisito": "GUE",
+          "condizioni": "Ambiente esterno/interno aria/acqua: Bulbo secco all\u2019 entrata : 7\u00b0C, Bulbo umido all\u2019entrata : 6\u00b0C / Temperatura entrata: 30\u00b0C(*)",
+          "valore": "1,38"
+        },
+        {
+          "tipo": "Pompe di calore a gas",
+          "requisito": "GUE",
+          "condizioni": "Ambiente esterno/interno salamoia/aria: Temperatura entrata: 0\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C",
+          "valore": "1,59"
+        },
+        {
+          "tipo": "Pompe di calore a gas",
+          "requisito": "GUE",
+          "condizioni": "Ambiente esterno/interno salamoia/ acqua: Temperatura entrata: 0\u00b0C / Temperatura entrata: 30\u00b0C(*)",
+          "valore": "1,47"
+        },
+        {
+          "tipo": "Pompe di calore a gas",
+          "requisito": "GUE",
+          "condizioni": "Ambiente esterno/interno acqua/aria: Temperatura entrata: 10\u00b0C / Bulbo secco all\u2019entrata: 20\u00b0C",
+          "valore": "1,60"
+        },
+        {
+          "tipo": "Pompe di calore a gas",
+          "requisito": "GUE",
+          "condizioni": "Ambiente esterno/interno acqua/acqua: Temperatura entrata: 10\u00b0C / Temperatura entrata: 30\u00b0C(*)",
+          "valore": "1,56"
+        }
+      ],
+      "citations": []
+    }
+  ],
+  "interventi": [
+    {
+      "codice": "B.1",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con caldaie a condensazione",
+      "requisiti": [
+        "Efficienza stagionale >= classe A per direttiva ErP",
+        "Sostituzione di impianto preesistente"
+      ],
+      "incentivo": {
+        "tariffa_base_kwh": 65,
+        "durata_anni": 2,
+        "unita": "EUR/kW/anno"
+      },
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "fonte": "DM 16/02/2016 art.4, Regole Applicative CT 3.0"
+    },
+    {
+      "codice": "B.2",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con pompe di calore ad alta efficienza",
+      "requisiti": [
+        "COP >= 2.6 zone A-B",
+        "COP >= 2.8 zone C-D",
+        "COP >= 3.0 zone E-F",
+        "Potenza max 2000 kW",
+        "Certificazione EHPA o EN 14511"
+      ],
+      "incentivo": {
+        "tariffa_base_kwh": 110,
+        "durata_anni": 5,
+        "unita": "EUR/kW/anno"
+      },
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "fonte": "DM 16/02/2016 art.4, Regole Applicative CT 3.0"
+    },
+    {
+      "codice": "B.3",
+      "descrizione": "Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+      "requisiti": [
+        "COP >= 2.5 per produzione ACS",
+        "Sostituzione di scaldacqua elettrico esistente"
+      ],
+      "incentivo": {
+        "incentivo_fisso_anno": 300,
+        "durata_anni": 2,
+        "unita": "EUR/anno"
+      },
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "fonte": "DM 16/02/2016 art.4, Regole Applicative CT 3.0"
+    },
+    {
+      "codice": "B.4",
+      "descrizione": "Installazione di collettori solari termici per produzione di acqua calda sanitaria",
+      "requisiti": [
+        "Superficie minima 1.5 m2",
+        "Certificazione Solar Keymark o equivalente europea"
+      ],
+      "incentivo": {
+        "tariffa_base_mq": 245,
+        "durata_anni": 5,
+        "unita": "EUR/m2/anno"
+      },
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "fonte": "DM 16/02/2016 art.4, Regole Applicative CT 3.0"
+    },
+    {
+      "codice": "B.5",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con generatori di calore a biomassa",
+      "requisiti": [
+        "Certificazione emissioni EN 303-5",
+        "Combustibile: pellet, cippato, legna, altri biocombustibili solidi"
+      ],
+      "incentivo": {
+        "tariffa_base_kwh": 95,
+        "durata_anni": 5,
+        "unita": "EUR/kW/anno"
+      },
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "fonte": "DM 16/02/2016 art.4, Regole Applicative CT 3.0"
+    },
+    {
+      "codice": "4.1.a",
+      "descrizione": "isolamento termico di superfici opache delimitanti il volume climatizzato",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.b",
+      "descrizione": "sostituzione di chiusure trasparenti comprensive di infissi delimitanti il volume climatizzato",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.c",
+      "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale utilizzanti generatori di calore a condensazione",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.d",
+      "descrizione": "installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti con esposizione da Est-sud-est a Ovest, fissi o mobili, non trasportabili",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.e",
+      "descrizione": "trasformazione degli edifici esistenti in \u201cedifici a energia quasi zero\u201d",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.f",
+      "descrizione": "sostituzione di sistemi per l\u2019illuminazione d\u2019interni e delle pertinenze esterne degli edifici esistenti con sistemi efficienti di illuminazione",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.1.g",
+      "descrizione": "installazione di tecnologie di gestione e controllo automatico (building automation) degli impianti termici ed elettrici degli edifici, ivi compresa l\u2019installazione di sistemi di termoregolazione e contabilizzazione del calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.a",
+      "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.b",
+      "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti o di riscaldamento delle serre e dei fabbricati rurali esistenti con impianti di climatizzazione invernale dotati di generatore di calore alimentato da biomassa, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.c",
+      "descrizione": "installazione di impianti solari termici per la produzione di acqua calda sanitaria e/o ad integrazione dell\u2019impianto di climatizzazione invernale, anche abbinati a sistemi di solar cooling, per la produzione di energia termica per processi produttivi o immissione in reti di teleriscaldamento e teleraffreddamento. Nel caso di superfici del campo solare superiori a 100 m2 \u00e8 richiesta l\u2019installazione di sistemi di contabilizzazione del calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.d",
+      "descrizione": "sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "4.2.e",
+      "descrizione": "sostituzione di impianti di climatizzazione invernale esistenti con sistemi ibridi a pompa di calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "Articolo 4, comma 1, lettera a)",
+      "descrizione": "Isolamento termico di strutture opache (coperture, pavimenti, pareti perimetrali)",
+      "requisiti": [
+        "Valori di trasmittanza termica massimi consentiti (Tabella 1)",
+        "Miglioramento dell'indice di prestazione energetica di almeno il 50% (in alternativa, per edifici antecedenti al 29/10/1993)",
+        "Incremento del 15% dei valori di trasmittanza per isolamento dall'interno o in intercapedine"
+      ],
+      "incentivo": {},
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "codice": "Articolo 4, comma 1, lettera b)",
+      "descrizione": "Sostituzione di chiusure trasparenti (infissi)",
+      "requisiti": [
+        "Valori di trasmittanza termica massimi consentiti (Tabella 1)",
+        "Installazione congiunta a sistemi di termoregolazione o valvole termostatiche"
+      ],
+      "incentivo": {},
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "codice": "Articolo 4, comma 1, lettera c)",
+      "descrizione": "Installazione di generatori di calore a condensazione ad alta efficienza",
+      "requisiti": [
+        "Rendimento termico utile minimo (Tabella 2)",
+        "Installazione di valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)",
+        "Messa a punto ed equilibratura del sistema di distribuzione",
+        "Sistema di contabilizzazione individuale dell'energia termica (in caso di molteplici unit\u00e0 immobiliari)",
+        "Bruciatore modulante (per impianti >= 100 kW)",
+        "Regolazione climatica agente direttamente sul bruciatore (per impianti >= 100 kW)",
+        "Pompa elettronica a giri variabili (per impianti >= 100 kW)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "Articolo 4, comma 1, lettera d)",
+      "descrizione": "Installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti",
+      "requisiti": [
+        "Abbinamento ad almeno uno degli interventi di cui all'articolo 4, comma 1, lettere a) o b)",
+        "Prestazione di schermatura solare di classe 3 o superiore (UNI EN 14501)",
+        "Meccanismi automatici di regolazione e controllo (UNI EN 15232)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "Articolo 4, comma 2",
+      "descrizione": "Pompe di calore",
+      "requisiti": [
+        "Coefficiente di prestazione (COP o GUE) minimo (Tabelle 3 e 4)",
+        "Valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "Articolo 4, comma 2, lettera b)",
+      "descrizione": "Generatori di calore alimentati da biomassa",
+      "requisiti": [
+        "Sostituzione di generatori a biomassa, carbone, olio combustibile o gasolio",
+        "Manutenzione biennale obbligatoria",
+        "Valvole termostatiche a bassa inerzia termica (o altra regolazione modulante)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.A",
+      "descrizione": "Isolamento termico di superfici opache delimitanti il volume climatizzato",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.B",
+      "descrizione": "Sostituzione di chiusure trasparenti comprensive di infissi delimitanti il volume climatizzato",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.C",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale con generatori di calore a condensazione",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.D",
+      "descrizione": "Installazione di sistemi di schermatura e/o ombreggiamento di chiusure trasparenti con esposizione da ESE a O, fissi o mobili, non trasportabili",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.E",
+      "descrizione": "Trasformazione in \u201cedifici a energia quasi zero\u201d",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.F",
+      "descrizione": "Sostituzione di sistemi per l\u2019illuminazione di interni e delle pertinenze esterne esistenti con sistemi di illuminazione efficienti",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.G",
+      "descrizione": "Installazione di tecnologie di gestione e controllo automatico (building automation) degli impianti termici ed elettrici, inclusa l\u2019installazione di sistemi di termoregolazione e contabilizzazione del calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.A",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale utilizzanti pompe di calore elettriche o a gas, anche geotermiche (con potenza termica utile nominale fino a 2000 kW)",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.B",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale o di riscaldamento delle serre esistenti e dei fabbricati rurali esistenti con generatori di calore alimentati da biomassa (con potenza termica nominale fino a 2000 kW)",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.C",
+      "descrizione": "Installazione di collettori solari termici, anche abbinati a sistemi di solar cooling (con superficie solare lorda fino a 2500 m2)",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.D",
+      "descrizione": "Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.E",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con sistemi ibridi a pompa di calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "II.A",
+      "descrizione": "Isolamento termico di superfici opache",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "II.B",
+      "descrizione": "Sostituzione di chiusure trasparenti",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "II.D",
+      "descrizione": "Edifici nZEB",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.A",
+      "descrizione": "Pompe di calore elettriche o a gas",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.B",
+      "descrizione": "Sistemi ibridi factory made o bivalenti",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.C",
+      "descrizione": "Caldaie a biomassa",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.D",
+      "descrizione": "Scaldacqua a pompa di calore",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.F",
+      "descrizione": "Allaccio a sistemi di teleriscaldamento efficiente",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "III.G",
+      "descrizione": "Microcogenerazione alimentata da fonti rinnovabili",
+      "requisiti": [],
+      "incentivo": {},
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.A",
+      "descrizione": "Isolamento termico di superfici opache pareti: perimetrali, pavimenti o coperture",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "Tra 80 \u20ac/mq e 250 \u20ac/mq",
+        "percentuale_spesa_riconoscibile": "40% (*)(**)",
+        "incentivo_massimo_erogabile": "400.000 \u20ac"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.B",
+      "descrizione": "Sostituzione di infissi",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "350 \u20ac/mq (zone A, B, C)\n450 \u20ac/mq (zone D, E, F)",
+        "percentuale_spesa_riconoscibile": "40% (**)",
+        "incentivo_massimo_erogabile": "75.000 \u20ac o 100.000 \u20ac in relazione alla zona climatica"
+      },
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "codice": "1.C",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale con generatori di calore a condensazione",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "160 \u20ac/kW (P<= 35 kW)\n130 \u20ac/kW (P>35 kW)",
+        "percentuale_spesa_riconoscibile": "40% (**)",
+        "incentivo_massimo_erogabile": "3.000 \u20ac o 40.000 \u20ac in relazione alla potenza impianto"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.D",
+      "descrizione": "Installazione di sistemi di schermatura e/o ombreggiamento",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "150 \u20ac/mq (schermature)\n30 \u20ac/mq (sistemi controllo)",
+        "percentuale_spesa_riconoscibile": "40%",
+        "incentivo_massimo_erogabile": "5.000 \u20ac o 30.000 \u20ac a seconda della tipologia di intervento"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.E",
+      "descrizione": "Trasformazione degli edifici in nZEB",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "500 \u20ac/mq (zone A, B, C)\n575 \u20ac/mq (zone D, E, F)",
+        "percentuale_spesa_riconoscibile": "65%",
+        "incentivo_massimo_erogabile": "1.500.000 \u20ac o 1.750.000 \u20ac in relazione alla zona climatica"
+      },
+      "zone_climatiche": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "codice": "1.F",
+      "descrizione": "Sostituzione di sistemi per l\u2019illuminazione di interni e delle pertinenze esterne con sistemi efficienti di illuminazione",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "15 \u20ac/mq (lampade alta efficienza)\n35 \u20ac/mq (lampade a led)",
+        "percentuale_spesa_riconoscibile": "40%",
+        "incentivo_massimo_erogabile": "30.000 \u20ac o 70.000 \u20ac in relazione al tipo di lampada"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "1.G",
+      "descrizione": "Installazione di tecnologie di building automation degli impianti termici ed elettrici degli edifici",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "25 \u20ac/mq",
+        "percentuale_spesa_riconoscibile": "40%",
+        "incentivo_massimo_erogabile": "50.000 \u20ac"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.A",
+      "descrizione": "Sostituzione di impianti di climatizzazione con impianti a pompa di calore fino a 2.000 kW",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "Il massimale \u00e8 determinato sulla base della producibilit\u00e0 stimata",
+        "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+        "incentivo_massimo_erogabile": null
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.B",
+      "descrizione": "Sostituzione di impianti di climatizzazione con generatori a biomassa fino a 2.000 kW",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "Il massimale \u00e8 determinato sulla base della producibilit\u00e0 stimata e di coefficienti premianti",
+        "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+        "incentivo_massimo_erogabile": null
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.C",
+      "descrizione": "Installazione di collettori solari termici fino a 2.500 mq",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "Il massimale \u00e8 determinato sulla base della producibilit\u00e0 stimata",
+        "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+        "incentivo_massimo_erogabile": null
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.D",
+      "descrizione": "Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "40% della spesa sostenuta",
+        "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+        "incentivo_massimo_erogabile": null
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.E",
+      "descrizione": "Sostituzione di impianti di climatizzazione con nuovi sistemi ibridi (caldaie a condensazione + pompa di calore)",
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "Il massimale \u00e8 determinato sulla base della producibilit\u00e0 stimata",
+        "percentuale_spesa_riconoscibile": "Massimo 65% in funzione delle caratteristiche dell\u2019impianto",
+        "incentivo_massimo_erogabile": null
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "Diagnosi energetica + APE",
+      "descrizione": null,
+      "requisiti": [],
+      "incentivo": {
+        "costo_unitario_ammisibile": "Tra 1 \u20ac/mq e 3,5 \u20ac/mq",
+        "percentuale_spesa_riconoscibile": "100% - ERP 5.000 \u20ac - Ospedali e Case di cura 18.000 \u20ac - Altri edifici 13.000 \u20ac 50% - Cooperative sociali e di abitanti",
+        "incentivo_massimo_erogabile": null
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.A",
+      "descrizione": "Sostituzione di impianti di climatizzazione con impianti a pompa di calore fino a 2.000 kW",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.B",
+      "descrizione": "Sostituzione di impianti di climatizzazione con generatori a biomassa fino a 2.000 kW",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.C",
+      "descrizione": "Installazione di collettori solari termici fino a 2.500 mq",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.D",
+      "descrizione": "Sostituzione di scaldacqua elettrici con scaldacqua a pompa di calore",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.E",
+      "descrizione": "Sostituzione di impianti di climatizzazione con nuovi sistemi ibridi (caldaie a condensazione + pompa di calore)",
+      "requisiti": [],
+      "incentivo": {
+        "percentuale": "Massimo 65%",
+        "massimale": "determinato sulla base della producibilit\u00e0 stimata"
+      },
+      "zone_climatiche": []
+    },
+    {
+      "codice": "2.A",
+      "descrizione": "Sostituzione di impianti di climatizzazione invernale esistenti con impianti di climatizzazione invernale, anche combinati per la produzione di acqua calda sanitaria, dotati di pompe di calore, elettriche o a gas, utilizzanti energia aerotermica, geotermica o idrotermica, unitamente all\u2019installazione di sistemi per la contabilizzazione del calore nel caso di impianti con potenza termica utile superiore a 200 kW",
+      "requisiti": [
+        "Sostituzione parziale o integrale dell'impianto di climatizzazione invernale esistente (tranne categoria catastale F)",
+        "Messa a punto ed equilibratura del sistema di distribuzione, regolazione e controllo",
+        "Installazione di elementi di regolazione di tipo modulante agente sulla portata (valvole termostatiche a bassa inerzia termica) su tutti i corpi scaldanti, con eccezioni specificate",
+        "Installazione di sistemi di contabilizzazione individuale dell'energia termica utilizzata (impianti centralizzati)",
+        "Installazione di sistemi di contabilizzazione del calore e comunicazione al GSE delle misure dell'energia termica (potenza termica utile > 200 kW)",
+        "COP minimo per pompe di calore elettriche (UNI EN 14511)",
+        "GUE minimo per pompe di calore a gas (UNI EN 12309-2 o UNI EN 14511:2011)",
+        "Emissioni NOx inferiori a 120 mg/kWh (pompe di calore a gas ad assorbimento) o 240 mg/kWh (pompe di calore a gas con motore a combustione interna)",
+        "Riduzione del 5% dei valori COP e GUE per pompe di calore con variatore di velocit\u00e0",
+        "Diagnosi energetica ante-operam e APE post-operam (interi edifici con potenza nominale totale >= 200 kW)"
+      ],
+      "incentivo": {},
+      "zone_climatiche": []
+    }
+  ],
+  "totale_documenti": 7,
+  "totale_interventi": 63
+}

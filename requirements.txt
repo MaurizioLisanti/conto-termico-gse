@@ -2,3 +2,5 @@ elysia-ai
 weaviate-client
 python-dotenv
 pytest
+pdfplumber
+openai
