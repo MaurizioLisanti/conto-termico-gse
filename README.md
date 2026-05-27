@@ -301,6 +301,42 @@ Contribuzioni e feedback benvenuti.
 
 ---
 
+## 📦 Dataset — Normative GSE (Kaggle)
+
+Il progetto include un **dataset strutturato delle normative CT GSE**, estratto da PDF ufficiali
+con Gemini API e pubblicato su Kaggle per uso AI/NLP.
+
+| Metrica | Valore |
+|---|---|
+| Documenti | 7 PDF ufficiali GSE |
+| Sezioni estratte | 72 |
+| Interventi ammissibili | 58 |
+| Versioni CT | CT 2.0 (2016) + CT 3.0 (2026) |
+| Formato | JSON strutturato |
+
+### Struttura
+```
+data/
+├── dataset_completo.json          ← dataset principale
+├── decreto_dm_16_02_2016.json
+├── regole_applicative_ct.json
+├── ct3_webinar_2026.json
+└── kaggle_dataset_card.md         ← descrizione dataset Kaggle
+notebooks/
+└── estrazione_normative_gse.ipynb ← analisi e documentazione processo
+```
+
+### Casi d'uso
+- **RAG su normativa italiana** — chunk pronti per vector store (Weaviate, Chroma, FAISS)
+- **Fine-tuning LLM** — coppie (domanda, risposta) da interventi e requisiti tecnici
+- **NLP italiano** — testo normativo tecnico per classificazione e NER
+
+### Esplora il notebook
+Il notebook [`notebooks/estrazione_normative_gse.ipynb`](notebooks/estrazione_normative_gse.ipynb)
+documenta l'intero processo di estrazione e analizza il dataset — **eseguibile senza API key**.
+
+---
+
 ## 🤝 Community — Linux PropLUG
 
 Questo progetto è sviluppato nell'ambito di **Linux PropLUG**,
