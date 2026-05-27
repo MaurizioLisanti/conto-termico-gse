@@ -335,6 +335,9 @@ notebooks/
 Il notebook [`notebooks/estrazione_normative_gse.ipynb`](notebooks/estrazione_normative_gse.ipynb)
 documenta l'intero processo di estrazione e analizza il dataset — **eseguibile senza API key**.
 
+### Dataset su Kaggle
+🔗 [kaggle.com/datasets/maurizioweb/conto-termico-gse-normative-italiane](https://www.kaggle.com/datasets/maurizioweb/conto-termico-gse-normative-italiane)
+
 ---
 
 ## 🤝 Community — Linux PropLUG
