@@ -338,6 +338,21 @@ documenta l'intero processo di estrazione e analizza il dataset — **eseguibile
 ### Dataset su Kaggle
 🔗 [kaggle.com/datasets/maurizioweb/conto-termico-gse-normative-italiane](https://www.kaggle.com/datasets/maurizioweb/conto-termico-gse-normative-italiane)
 
+**DOI:** https://doi.org/10.34740/kaggle/dsv/16485033
+
+**Citation (APA):** Lisanti, M. (2026). Conto Termico GSE Normative Italiane. Kaggle.
+
+**Citation (BibTeX):**
+```bibtex
+@misc{maurizioweb2026,
+  author = {Lisanti, Maurizio},
+  title = {Conto Termico GSE Normative Italiane},
+  year = {2026},
+  publisher = {Kaggle},
+  doi = {10.34740/kaggle/dsv/16485033}
+}
+```
+
 ---
 
 ## 🤝 Community — Linux PropLUG
