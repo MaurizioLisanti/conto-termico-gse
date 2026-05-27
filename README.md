@@ -358,7 +358,7 @@ documenta l'intero processo di estrazione e analizza il dataset — **eseguibile
 ## 🤝 Community — Linux PropLUG
 
 Questo progetto è sviluppato nell'ambito di **Linux PropLUG**,
-l'associazione Linux di Napoli che promuove il software libero e open source
+l'associazione Linux di Baronissi che promuove il software libero e open source
 nella comunità tecnica campana.
 
 🌐 [https://proplug.it](https://proplug.it)
