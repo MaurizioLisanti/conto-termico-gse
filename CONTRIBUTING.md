@@ -8,7 +8,7 @@
 
 Benvenuto nel progetto **Conto Termico GSE — Assistente AI con Elysia**.
 Questo progetto è sviluppato nell'ambito di **Linux PropLUG**, l'associazione
-Linux di Baronissi che promuove il software libero e open source.
+Linux di Baronissi (SA) che promuove il software libero e open source.
 
 🌐 Sito dell'associazione: [https://proplug.it](https://proplug.it)
 

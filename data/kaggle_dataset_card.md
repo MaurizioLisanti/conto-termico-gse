@@ -205,7 +205,7 @@ a domande di ammissibilità CT GSE usando RAG su Weaviate.
 ## Community — Linux PropLUG
 
 Dataset creato da **Maurizio Lisanti** nell'ambito di **Linux PropLUG**,
-l'associazione Linux di Baronissi che promuove il software libero e open source
+l'associazione Linux di Baronissi (SA) che promuove il software libero e open source
 nella comunità tecnica campana.
 
 🌐 [https://proplug.it](https://proplug.it)
