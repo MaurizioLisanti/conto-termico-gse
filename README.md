@@ -1,8 +1,8 @@
 # 🔥 Conto Termico GSE — Assistente AI documentale
 
-![CI](https://github.com/MaurizioLisanti/conto-termico-gse/actions/workflows/ci.yml/badge.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/python-3.12-blue)
+[![CI](https://github.com/MaurizioLisanti/conto-termico-gse/actions/workflows/ci.yml/badge.svg)](https://github.com/MaurizioLisanti/conto-termico-gse/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/downloads/)
 
 **RAG agentico sulla normativa GSE italiana.** Python 3.12 · Elysia (Weaviate) · FastAPI.
 
