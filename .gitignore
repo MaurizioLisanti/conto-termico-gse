@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 tests/__pycache__/
+
+# Local agent settings
+.claude/
