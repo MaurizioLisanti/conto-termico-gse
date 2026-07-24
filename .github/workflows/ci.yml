@@ -18,13 +18,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
 
+      # A failing install must fail the job: a green tick on a broken
+      # dependency set is worse than no tick at all.
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt || true
-          pip install pytest
-        # elysia-ai non è disponibile su PyPI — il fallback garantisce
-        # che pytest sia sempre installato per i test.
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run tests
         run: pytest tests/ -q
