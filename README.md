@@ -285,7 +285,7 @@ su ogni push. Contribuzioni e feedback benvenuti.
   Stesso ecosistema PA italiana, diverso dominio normativo.
 - **sdi-ops-monitor** — Monitor operativo SDI/FatturaPA su AWS.
   Infrastruttura di supporto per flussi documentali italiani.
-  [agentic-dev-pipeline](https://github.com/MaurizioLisanti/agentic-dev-pipeline) — La pipeline
+  -[agentic-dev-pipeline](https://github.com/MaurizioLisanti/agentic-dev-pipeline) — La pipeline
   di sviluppo multi-agente governata con cui questo progetto è stato costruito.
   Gli handoff in `coord/` ne sono l'output.
 ## 📚 Risorse utili
