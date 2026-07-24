@@ -1,40 +1,109 @@
-> 🚧 **In sviluppo** — RAG agentico per normativa GSE italiana.  
-> Costruito con Python 3.12 + Elysia (Weaviate) + FastAPI.  
-> CI/CD e test automatici in arrivo.
-## Il problema
-Verificare l'ammissibilità di un impianto
-al Conto Termico GSE richiede ore di lettura
-di decreti ministeriali complessi.
-Ogni domanda tecnica diventa una ricerca manuale
-tra normative, circolari e note tecniche GSE.
+# conto-termico-gse — nuova apertura README
 
-## La soluzione
-Un assistente AI agentico che risponde in secondi
-a domande di ammissibilità, stima incentivi
-e verifica documentazione — addestrato sulla
-normativa GSE reale con RAG su Weaviate.
+## Cosa fare
 
-## Per chi è
-Tecnici, installatori e consulenti energetici
-che lavorano con il Conto Termico GSE
-e vogliono risposte rapide e precise
-sulla normativa senza leggere decreti.
-## Cosa dimostra tecnicamente
-- RAG agentico su normativa italiana con Elysia/Weaviate
-- Strategia multi-LLM — modello base per decisioni,
-  modello complesso per query articolate
-- Tool personalizzati per dominio GSE specifico
-- Vector search su documenti normativi italiani
-- FastAPI backend con Elysia Web UI integrata
-# 🔥 Conto Termico GSE — Assistente AI con Elysia
+Apri `README.md`, seleziona **dalla riga 1 fino alla riga 37 inclusa** — cioè
+dal banner "In sviluppo" fino alla riga `---` che sta subito prima di
+`## 📋 Cosa fa questa applicazione` — e sostituisci tutto con il blocco qui
+sotto.
+
+Il resto del README (da `## 📋 Cosa fa questa applicazione` in poi) non si tocca.
+
+---
+
+## Blocco sostitutivo
+
+```markdown
+# 🔥 Conto Termico GSE — Assistente AI documentale
 
 ![CI](https://github.com/MaurizioLisanti/conto-termico-gse/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/python-3.12-blue)
 
-Applicazione dimostrativa per la **gestione documentale del Conto Termico GSE**,
-costruita su [Elysia](https://github.com/weaviate/elysia) (framework RAG agentico di Weaviate).
+**RAG agentico sulla normativa GSE italiana.** Python 3.12 · Elysia (Weaviate) · FastAPI.
+
+## Il problema
+
+Verificare l'ammissibilità di un impianto al Conto Termico GSE richiede ore di
+lettura di decreti ministeriali complessi. Ogni domanda tecnica diventa una
+ricerca manuale tra normative, circolari e note tecniche GSE.
+
+## La soluzione
+
+Un assistente AI agentico che risponde in secondi a domande di ammissibilità,
+stima incentivi e verifica documentazione — costruito sulla normativa GSE reale
+con RAG su Weaviate.
+
+## Per chi è
+
+Tecnici, installatori e consulenti energetici che lavorano con il Conto Termico
+GSE e vogliono risposte rapide e precise sulla normativa senza leggere decreti.
+
+## Cosa dimostra tecnicamente
+
+- RAG agentico su normativa italiana con Elysia/Weaviate
+- Strategia multi-LLM — modello base per le decisioni, modello complesso per le
+  query articolate
+- Tool personalizzati per il dominio GSE
+- Vector search su documenti normativi italiani
+- FastAPI backend con Elysia Web UI integrata
+- Test automatici e CI GitHub Actions su ogni push
 
 ---
+```
+
+---
+
+## Cosa cambia e perché
+
+**Via il banner "In sviluppo".** Diceva che CI e test erano "in arrivo": ci sono
+entrambi. Il workflow `.github/workflows/ci.yml` esegue `pytest tests/ -q` a
+ogni push, e in `tests/` ci sono `test_ammissibilita.py` e
+`test_stima_incentivo.py`. Dichiarare una debolezza che non hai piu e l'unico
+autogol gratuito del repo.
+
+**Titolo e badge risalgono in cima.** Erano alla riga 29-31, dopo quattro
+sezioni. Chi apriva il repo non vedeva ne come si chiama il progetto ne il
+badge CI verde.
+
+**Sottotitolo con lo stack.** Recupera l'informazione utile del vecchio banner
+(Python / Elysia / FastAPI) senza la parte che si autosminuiva.
+
+**"Test automatici e CI" entra tra le cose che il repo dimostra.** Da debolezza
+dichiarata a punto di forza dichiarato, stessa informazione.
+
+**Titolo accorciato.** "Assistente AI con Elysia" nominava lo strumento;
+"Assistente AI documentale" nomina il problema risolto. Elysia resta nel
+sottotitolo.
+
+---
+
+## Commit
+
+    docs: fix README opening and drop stale WIP banner
+
+Extended description:
+
+    The banner claimed CI and automated tests were still to come, but both
+    have been in place for some time. The project title and the CI badge sat
+    thirty lines below it, after four content sections; move them to the top.
+
+---
+
+## Mentre ci sei — impostazioni del repo (2 minuti)
+
+Nella pagina del repo, ingranaggio accanto ad "About":
+
+**Description** — le altre tre schede pinnate sono in inglese, questa stona
+nella griglia. Proposta:
+
+    AI-powered document assistant for Italian Conto Termico (GSE) incentive
+    applications. Agentic RAG on Weaviate, multi-LLM routing, FastAPI.
+
+**Topics** da aggiungere:
+
+    gse · conto-termico · rag · weaviate · italy · compliance
+    document-automation · fastapi · python
 
 ## 📋 Cosa fa questa applicazione
 
