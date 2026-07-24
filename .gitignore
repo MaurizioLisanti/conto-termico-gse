@@ -7,3 +7,6 @@ tests/__pycache__/
 
 # Local agent settings
 .claude/
+
+# Local agent settings
+.claude/
