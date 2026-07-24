@@ -1,4 +1,3 @@
-
 # 🔥 Conto Termico GSE — Assistente AI documentale
 
 ![CI](https://github.com/MaurizioLisanti/conto-termico-gse/actions/workflows/ci.yml/badge.svg)
@@ -364,4 +363,5 @@ nella comunità tecnica campana.
 🌐 [https://proplug.it](https://proplug.it)
 
 Contribuzioni benvenute — leggi [CONTRIBUTING.md](CONTRIBUTING.md) per iniziare.
+
 
