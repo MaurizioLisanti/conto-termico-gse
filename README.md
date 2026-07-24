@@ -124,7 +124,7 @@ Vedrai `(.venv)` nel prompt del terminale.
 
 ### Passo 3: Installa le dipendenze
 ```bash
-pip install elysia-ai weaviate-client python-dotenv
+pip install -r requirements.txt
 ```
 > ⏳ Ci vogliono 2-5 minuti, Elysia ha molte dipendenze.
 
@@ -277,15 +277,17 @@ configure(
 
 ---
 ## Stato del progetto
-🚧 In sviluppo attivo.
-CI/CD e test automatici in arrivo.
-Contribuzioni e feedback benvenuti.
+Progetto dimostrativo in sviluppo attivo. Test automatici e CI GitHub Actions
+su ogni push. Contribuzioni e feedback benvenuti.
 
 ## Progetti correlati
 - **fatturapa-mcp-server** — MCP server per FatturaPA/SDI.
   Stesso ecosistema PA italiana, diverso dominio normativo.
 - **sdi-ops-monitor** — Monitor operativo SDI/FatturaPA su AWS.
   Infrastruttura di supporto per flussi documentali italiani.
+  [agentic-dev-pipeline](https://github.com/MaurizioLisanti/agentic-dev-pipeline) — La pipeline
+  di sviluppo multi-agente governata con cui questo progetto è stato costruito.
+  Gli handoff in `coord/` ne sono l'output.
 ## 📚 Risorse utili
 
 - [Documentazione Elysia](https://weaviate.github.io/elysia/)
