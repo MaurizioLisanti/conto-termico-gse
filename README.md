@@ -1,19 +1,4 @@
-# conto-termico-gse — nuova apertura README
 
-## Cosa fare
-
-Apri `README.md`, seleziona **dalla riga 1 fino alla riga 37 inclusa** — cioè
-dal banner "In sviluppo" fino alla riga `---` che sta subito prima di
-`## 📋 Cosa fa questa applicazione` — e sostituisci tutto con il blocco qui
-sotto.
-
-Il resto del README (da `## 📋 Cosa fa questa applicazione` in poi) non si tocca.
-
----
-
-## Blocco sostitutivo
-
-```markdown
 # 🔥 Conto Termico GSE — Assistente AI documentale
 
 ![CI](https://github.com/MaurizioLisanti/conto-termico-gse/actions/workflows/ci.yml/badge.svg)
